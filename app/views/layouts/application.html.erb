@@ -8,20 +8,30 @@
   <meta name="description" content="SPOT Software official website">
   <meta name="author" content="SPOT Software">
 
-  <title>SPOT Software - Components & Solutions</title>
+  <title><%= t(:title) %></title>
 
   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= stylesheet_link_tag params[:controller], media: 'all', 'data-turbolinks-track' => true %>
+  <%= yield(:stylesheets) if @content_for_stylesheets %>
+  <%= stylesheet_for_specific_page %>
 
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
-  <%= javascript_include_tag params[:controller], 'data-turbolinks-track' => true %>
+  <%= yield(:javascripts) if @content_for_javascripts %>
+  <%= javascript_for_specific_page %>
 
   <%= csrf_meta_tags %>
 
 </head>
 <body>
 
+<%= render 'partials/navbar' %>
+
 <%= yield %>
+
+<%= render 'partials/analytics' %>
+
+<%= render 'partials/social' %>
+
+<%= render 'partials/footer' %>
 
 </body>
 </html>

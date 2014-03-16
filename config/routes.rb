@@ -4,7 +4,7 @@ CompanyWebsite::Application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  root to: redirect('/about')
+  root to: redirect('/main')
 
   # This matches the other pages.
   # The parentheses mark the :format parameter of the route as optional, so /about or /about.html should work.

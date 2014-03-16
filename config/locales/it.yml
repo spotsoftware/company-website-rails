@@ -1,0 +1,43 @@
+it:
+  title: "SPOT Software - Componenti e soluzioni"
+
+  # ==> Navbar
+
+  home_link_title: "Home"
+  solutions_link_title: "Soluzioni"
+  about_link_title: "Chi Siamo"
+  contacts_anchor_title: "Contatti"
+
+  # ==> Footer
+
+  contact_location_title: "Dove siamo"
+  contact_fiscal_code: "Codice fiscale, Partita IVA e numero d'iscrizione al Registro delle Imprese di Forlì-Cesena"
+  contact_capital: "Capitale sociale euro 15.600,00 interamente versato"
+  contact_rights_reserved: "Tutti i diritti riservati"
+
+  theme_used: "Tema usato"
+  theme_provided_by: "fornito da"
+
+  # ==> Social
+
+  facebook_become_friend: "Diventa amico"
+  twitter_follow_us: "Seguici"
+  google_plus_add_to_circle: "Aggiungici ad una cerchia"
+
+  # ==> About
+
+  about_title: "Chi siamo"
+  about_team_kind: "Siamo un team agile, appassionato, con competenze trasversali"
+  about_work_kind: "Progettiamo e sviluppiamo software personalizzato per la realizzazione di soluzioni di integrazione e siti web dinamici"
+  about_work_history: "In oltre quindici anni di presenza attiva sul mercato abbiamo imparato come realizzare software tecnicamente all'avanguardia a costi contenuti e come creare siti web usabili, ma graficamente attraenti e ben visibili nei motori di ricerca"
+  about_beliefs: "Crediamo fortemente nella qualità delle persone che compongono il nostro team e nel loro aggiornamento professionale. Pensiamo che avere le persone giuste e gli strumenti più adatti per fare il proprio lavoro sia un ottimo punto di partenza per un rapporto di reciproca soddisfazione con i nostri clienti"
+  about_services_analysis_title: "Analisi"
+  about_services_analysis_details: "Analizzeremo insieme la problematica da risolvere per costruire un piano di lavoro dettagliato, con flussi di progetto e evidenziandone le criticità. A volte, queste analisi, richiedono l'acquisizione di know how operativi sulla struttura/frame work utilizzata dal committente. Al termine di questa fase, condivideremo i risultati dell'analisi attraverso una serie di documenti di progetto sintetici, ma dettagliati, anche secondo lo standard UML (Unified Modeling Language)"
+  about_services_development_title: "Sviluppo"
+  about_services_development_details: "A seguito dell'analisi, inizieremo a sviluppare la soluzione, individuando, ove conveniente, eventuali componenti software di terze parti al fine di velocizzare e standardizzare il processo secondo know how consolidati nelle migliori community di sviluppo, ricevendo spesso anche il supporto diretto di Microsoft (in quanto loro partner certificati). In questa fase vengono pianificati incontri per valutare la coerenza di quanto sviluppato e verificare insieme lo stato di avanzamento del progetto"
+  about_services_test_title: "Test"
+  about_services_test_details: "Dopo una validazione formale del progetto da parte del cliente, verrà avviata una fase di test per mettere alla prova le applicazioni software sviluppate in modo da simulare situazioni di funzionamento reali. I test verranno validati dal responsabile di progetto, e, successivamente, da parte di un team specializzato nella validazione di prodotti software"
+  about_services_deployment_title: "Deployment"
+  about_services_deployment_details: "Una volta superati i test interni verrà avviata la fase di deployment. I progetti web saranno pubblicati in rete. Se necessario possono essere sviluppati specifici supporti e procedure per l'installazione autonoma della soluzione. Naturalmente si rimarrà in stretto contatto per il tempo sufficiente a verificare eventuali problematiche di adattamento ai vari hardware di supporto"
+  about_services_maintenance_title: "Manutenzione"
+  about_services_maintenance_details: "Grazie alla modularità con cui vengono progettati i prodotti è possibile effettuare con facilità manutenzioni evolutive. Eventuali modifiche dei flussi aziendali dei nostri clienti possono richiedere variazioni, anche strutturali, dei prodotti. Progettare una soluzione personalizzata significa inoltre prevedere il massimo grado di integrabilità con i sistemi esistenti per minimizzare gli interventi di manutenzione"

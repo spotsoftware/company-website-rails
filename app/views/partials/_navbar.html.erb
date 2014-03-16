@@ -1,0 +1,20 @@
+<% content_for :stylesheets do %>
+  <%= stylesheet_link_tag 'partials/navbar', media: 'all', 'data-turbolinks-track' => true %>
+<% end %>
+
+
+<div class="cbp-af-header">
+  <div class="cbp-af-inner">
+    <h1>Spot Software</h1>
+    <nav>
+      <% @navbar_links.each do |navbar_link| %>
+        <a href="<%= navbar_link[:link] %>"><%= navbar_link[:title] %></a>
+      <% end %>
+
+      <% @navbar_anchors.each do |navbar_anchor| %>
+        <a href="<%= navbar_anchor[:anchor] %>"><%= navbar_anchor[:title] %></a>
+      <% end %>
+    </nav>
+  </div>
+</div>
+

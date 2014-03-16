@@ -1,0 +1,49 @@
+#sf {
+  display: block;
+  width: 100%;
+
+  h4 {
+    color: #fff;
+  }
+
+  p {
+    color: #fff;
+  }
+
+  i {
+    font-size: 70px;
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .container {
+    width: 100%
+  }
+
+  .col-lg-4 {
+    margin: 0;
+    padding: 15px;
+  }
+
+  .lg {
+    background-color: #003366;
+  }
+
+  .dg {
+    background-color: #002c6a;
+  }
+
+  .ml {
+    margin-left: 30px;
+  }
+
+  a.ml {
+    display: block;
+    line-height: 28px;
+    margin-bottom: 25px;
+    font-size: 18px;
+    color: white;
+  }
+}

@@ -1,0 +1,49 @@
+<% content_for :stylesheets do %>
+  <%= stylesheet_link_tag 'partials/social', media: 'all', 'data-turbolinks-track' => true %>
+<% end %>
+
+
+<div id="sf">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-lg-4 dg">
+        <h4 class="ml">FACEBOOK</h4>
+        <p class="centered">
+          <a href="https://www.facebook.com/spotsoftware" target="_blank">
+            <%= fa_icon 'facebook' %>
+          </a>
+        </p>
+        <a href="https://www.facebook.com/spotsoftware" target="_blank" class="ml">
+          > <%= t(:facebook_become_friend) %>
+        </a>
+      </div>
+
+      <div class="col-lg-4 lg">
+        <h4 class="ml">TWITTER</h4>
+        <p class="centered">
+          <a href="https://twitter.com/spot_software" target="_blank">
+            <%= fa_icon 'twitter' %>
+          </a>
+        </p>
+        <a href="https://twitter.com/spot_software" target="_blank" class="ml">
+          > <%= t(:twitter_follow_us) %>
+        </a>
+      </div>
+
+      <div class="col-lg-4 dg">
+        <h4 class="ml">GOOGLE +</h4>
+        <p class="centered">
+          <a href="https://plus.google.com/+SpotIt/" target="_blank">
+            <%= fa_icon 'google-plus' %>
+          </a>
+        </p>
+        <a class="ml" target="_blank" href="https://plus.google.com/+SpotIt/">
+          > <%= t(:google_plus_add_to_circle) %>
+        </a>
+
+      </div>
+    </div>
+
+  </div>
+</div> <!-- #sf -->

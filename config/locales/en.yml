@@ -1,23 +1,43 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
+  title: "SPOT Software - Components & Solutions"
+
+  # ==> Navbar
+
+  home_link_title: "Home"
+  solutions_link_title: "Solutions"
+  about_link_title: "About"
+  contacts_anchor_title: "Contacts"
+
+  # ==> Footer
+
+  contact_location_title: "Where we are"
+  contact_fiscal_code: "Fiscal code, VAT, business identification number recorded in the Forlì-Cesena Business Registry"
+  contact_capital: "Paid-Up Capital: 15.600,00 euro"
+  contact_rights_reserved: "All rights reserved"
+
+  theme_used: "Theme used"
+  theme_provided_by: "provided by"
+
+  # ==> Social
+
+  facebook_become_friend: "Become A Friend"
+  twitter_follow_us: "Follow Us"
+  google_plus_add_to_circle: "Add Us To Your Circle"
+
+  # ==> About
+
+  about_title: "Who we are"
+  about_team_kind: "We are an passionate, cross-skilled, agile team"
+  about_work_kind: "We design and develop custom software to realize integration solutions and dynamic web sites"
+  about_work_history: "In more than fifteen years of actively development in the software-market, we learned how to realize software which is technically advanced with low-costs and how to create usable, attractive, search-engine-optimized websites"
+  about_beliefs: "We strongly believe in the people of our team and in their professional development. We think that the right people and the right tools are a wonderful starting point in order to begin a mutual satisfaction with our clients"
+  about_services_analysis_title: "Analysis"
+  about_services_analysis_details: "We will analyse the problem together in order to build a detailed work-plan, with work-flows and highlighting the critical issues. Sometimes there is the need to expand the know-how about the frame-work used by the customer. Following this phase, we will share the analysis results with a series of short but detailed design documents, following the UML-standard (Unified Modeling Language)"
+  about_services_development_title: "Development"
+  about_services_development_details: "A seguito dell'analisi, inizieremo a sviluppare la soluzione, individuando, ove conveniente, eventuali componenti software di terze parti al fine di velocizzare e standardizzare il processo secondo know how consolidati nelle migliori community di sviluppo, ricevendo spesso anche il supporto diretto di Microsoft (in quanto loro partner certificati). In questa fase vengono pianificati incontri per valutare la coerenza di quanto sviluppato e verificare insieme lo stato di avanzamento del progetto"
+  about_services_test_title: "Test"
+  about_services_test_details: "Dopo una validazione formale del progetto da parte del cliente, verrà avviata una fase di test per mettere alla prova le applicazioni software sviluppate in modo da simulare situazioni di funzionamento reali. I test verranno validati dal responsabile di progetto, e, successivamente, da parte di un team specializzato nella validazione di prodotti software"
+  about_services_deployment_title: "Deployment"
+  about_services_deployment_details: "Una volta superati i test interni verrà avviata la fase di deployment. I progetti web saranno pubblicati in rete. Se necessario possono essere sviluppati specifici supporti e procedure per l'installazione autonoma della soluzione. Naturalmente si rimarrà in stretto contatto per il tempo sufficiente a verificare eventuali problematiche di adattamento ai vari hardware di supporto"
+  about_services_maintenance_title: "Maintenance"
+  about_services_maintenance_details: "Grazie alla modularità con cui vengono progettati i prodotti è possibile effettuare con facilità manutenzioni evolutive. Eventuali modifiche dei flussi aziendali dei nostri clienti possono richiedere variazioni, anche strutturali, dei prodotti. Progettare una soluzione personalizzata significa inoltre prevedere il massimo grado di integrabilità con i sistemi esistenti per minimizzare gli interventi di manutenzione"

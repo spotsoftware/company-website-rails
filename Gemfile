@@ -13,7 +13,11 @@ gem 'sass-rails', '~> 4.0.0'
 # Please remove the following line (sprockets locked to 2.11.0) as soon as the issue gets solved
 gem 'sprockets', '<= 2.11.0'
 
+# TwitterBootstrap support (sass flavour)
 gem 'bootstrap-sass', '~> 3.1.1'
+
+# FontAwesome (+ Rails helpers)
+gem 'font-awesome-rails'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'

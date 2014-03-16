@@ -1,1 +1,41 @@
-<h1>About</h1>
+<!-- MAIN IMAGE SECTION -->
+<div id="aboutwrap">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2">
+      </div>
+    </div>
+  </div>
+</div> <!-- #aboutwrap -->
+
+<div>
+  <div class="container">
+    <div class="row mt">
+      <div class="col-lg-12">
+        <h1><%= t(:about_title) %></h1>
+        <p><%= t(:about_team_kind) %></p>
+        <p><%= t(:about_work_kind) %></p>
+        <p><%= t(:about_work_history) %></p>
+        <p><%= t(:about_beliefs) %></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="services">
+  <div class="container">
+    <div class="row mt">
+
+      <% @services.each do |service| %>
+        <div class="col-lg-1 centered">
+          <%= fa_icon service[:icon_name] %>
+        </div>
+        <div class="col-lg-3">
+          <h3><%= service[:title] %></h3>
+          <p class="tm"><%= service[:details] %></p>
+        </div>
+      <% end %>
+
+    </div>
+  </div>
+</div> <!-- services -->
