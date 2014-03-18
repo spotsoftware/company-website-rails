@@ -9,7 +9,18 @@ class ApplicationController < ActionController::Base
   protected
 
   def set_locale
-    I18n.locale = params[:locale] || I18n.default_locale
+    I18n.locale = params[:locale] || get_locale_from_geoip || I18n.default_locale
+  end
+
+
+  @@geoip ||= GeoIP.new(Rails.root.join('db', 'GeoIP.dat'))
+  def get_locale_from_geoip
+    remote_ip = request.remote_ip
+
+    if remote_ip != "127.0.0.1" # Skip localhost
+      location_location = @@geoip.country(remote_ip)
+      location_location != nil ? location_location[2] : nil
+    end
   end
 
   def set_navbar_info
