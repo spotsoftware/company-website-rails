@@ -10,12 +10,14 @@
 
   <title><%= t(:title) %></title>
 
-  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= yield(:stylesheets) if @content_for_stylesheets %>
+  <!-- Stylesheet for the application layout -->
+  <%= stylesheet_link_tag 'layouts/application', media: 'all', 'data-turbolinks-track' => true %>
+  <!-- Stylesheet for the specific page -->
   <%= stylesheet_for_specific_page %>
 
-  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
-  <%= yield(:javascripts) if @content_for_javascripts %>
+  <!-- Javascript for the application layout -->
+  <%= javascript_include_tag "layouts/application", "data-turbolinks-track" => true %>
+  <!-- Javascript for the specific page -->
   <%= javascript_for_specific_page %>
 
   <%= csrf_meta_tags %>
@@ -23,15 +25,15 @@
 </head>
 <body>
 
-<%= render 'partials/navbar' %>
+<%= render 'layouts/application/navbar' %>
 
 <%= yield %>
 
-<%= render 'partials/analytics' %>
+<%= render 'layouts/application/footer' %>
 
-<%= render 'partials/social' %>
+<%= render 'layouts/application/social' %>
 
-<%= render 'partials/footer' %>
+<%= render 'layouts/application/analytics' %>
 
 </body>
 </html>

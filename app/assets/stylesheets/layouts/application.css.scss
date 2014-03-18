@@ -1,0 +1,15 @@
+// ==> Common stylesheets
+
+//= require font-awesome
+
+@import "bootstrap";
+
+@import "commons/fonts";
+
+// ==> "Application"-layout specific stylesheets
+
+@import "application/theme";
+
+@import "application/navbar";
+@import "application/footer";
+@import "application/social";

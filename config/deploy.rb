@@ -1,7 +1,7 @@
 # config valid only for Capistrano 3.1
 lock '3.1.0'
 
-set :application, 'my_app_name'
+set :layouts, 'my_app_name'
 set :repo_url, 'git@example.com:me/my_repo.git'
 
 # Default branch is :master
