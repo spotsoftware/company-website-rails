@@ -4,8 +4,13 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
   before_filter :set_navbar_info, :set_analytics_info
+  before_action :set_locale
 
   protected
+
+  def set_locale
+    I18n.locale = params[:locale] || I18n.default_locale
+  end
 
   def set_navbar_info
     @navbar_links = [

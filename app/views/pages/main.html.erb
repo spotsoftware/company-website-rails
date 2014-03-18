@@ -1,145 +1,75 @@
-<!-- MAIN IMAGE SECTION -->
 <div id="headerwrap">
   <div class="container">
     <div class="row">
       <div>
-        <!--<h1>SPOT Software</h1>-->
-        <!--                <h2>Web Mobile Custom</h2>-->
-        <h1 class="claim">We Make Software</h1>
+        <h1 class="claim"><%= t(:main_claim) %></h1>
         <div class="spacer"></div>
-        <!--
-                            <i class="fa fa-angle-down"></i>
-        -->
       </div>
     </div>
-    <!-- row -->
   </div>
-  <!-- /container -->
-</div>
-<!-- /headerwrap -->
+</div> <!-- #headerwrap -->
 
-<!-- WELCOME SECTION -->
 <div class="container">
   <div class="row mt">
     <div class="col-lg-8">
-      <h1>Siamo una software house di soluzioni personalizzate.</h1>
-      </br>
-      <!--                 <b>Preferiamo la qualità alla quantità</b>.-->
+      <h1><%= t(:main_presentation) %></h1>
     </div>
     <div class="col-lg-4">
       <p class="pull-right">
         <br>
-        <a href="#/about" class="btn btn-green">LEGGI TUTTO</a>
+        <%= link_to t(:main_read_everything).upcase, '/about', class: 'btn btn-green' %>
       </p>
     </div>
   </div>
-  <!-- /row -->
 </div>
-<!-- /.container -->
 
-<!-- SERVICES SECTION -->
 <div id="services">
   <div class="container">
     <div class="row mt">
-      <div class="col-lg-4 col-md-4 col-sm-4">
-        <div class="centered">
-          <i class="fa fa-mobile"></i>
-        </div>
-        <div>
-          <h3 class="centered">Mobile</h3>
-        </div>
-      </div>
 
-      <div class="col-lg-4 col-md-4 col-sm-4">
-        <div class="centered">
-          <i class="fa fa-dot-circle-o"></i>
+      <% @services.each do |service| %>
+        <div class="col-lg-4 col-md-4 col-sm-4">
+          <div class="centered">
+            <%= fa_icon service[:icon_name] %>
+          </div>
+          <div>
+            <h3 class="centered"><%= service[:name] %></h3>
+          </div>
         </div>
-        <div>
-          <h3 class="centered">Soluzioni personalizzate</h3>
-        </div>
-      </div>
+      <% end %>
 
-      <div class="col-lg-4 col-md-4 col-sm-4">
-        <div class="centered">
-          <i class="fa fa-laptop"></i>
-        </div>
-        <div>
-          <h3 class="centered">Web</h3>
-        </div>
-      </div>
     </div>
-    <!-- row -->
   </div>
-  <!-- container -->
-</div>
-<!-- services section -->
+</div> <!-- #services -->
 
-
-
-<!-- PORTFOLIO SECTION -->
 <div id="portfolio">
   <div class="container">
     <div class="row mt">
       <ul class="grid effect-2" id="grid">
-        <li>
-          <img src="../assets/img/portfolio/15.png">
-          <p class="fading-text">Google Glass - Stiamo esplorando nuove integrazioni con applicazioni turistiche ed il settore dell'intrattenimento e della salute</p>
 
-        </li>
-        <!--
-                        <li>
-                            <a href="singleproject.html">
-                                <img src="../assets/img/portfolio/3.png">
-                                <p class="fading-text"> Integrazione con app nativa e collaborazione per potenziamento dell'sdk Androind con il produttore</p>
-                            </a>
-                        </li>
-        -->
-        <li>
-          <img src="../assets/img/portfolio/4.png">
-          <p class="fading-text">In partnership with Technogym, is participating to the Music Hack Day in Boston.
+        <% @portfolio_items.each do |portfolio_item| %>
+          <li>
+            <%= image_tag "pages/main/portfolio-items/#{portfolio_item[:image_name]}" %>
+            <p class="fading-text"><%= portfolio_item[:title] %></p>
+          </li>
+        <% end %>
 
-            Thanks to the Echo Nest, the leading music intelligence company, we are going to present innovative ideas and new technologies. </p>
-        </li>
-        <li>
-          <img src="../assets/img/portfolio/12.png">
-          <p class="fading-text">Leap Motion - Stiamo provando a vedere se programmando con le mani siamo più produttivi...stay tuned ;)</p>
-        </li>
-        <li>
-          <img src="../assets/img/portfolio/13.png">
-          <p class="fading-text">Google Chromecast - Ha rivoluzionato la nostra saletta relax, i nostri salotti di casa...e una nostra app è in dirittura d'arrivo</p>
-        </li>
-        <li>
-          <img src="../assets/img/portfolio/2.jpg">
-          <p class="fading-text">Pebble - Maestro che ore sono?</p>
-        </li>
       </ul>
     </div>
-    <!-- row -->
   </div>
-  <!-- container -->
-</div>
-<!-- portfolio -->
+</div> <!-- #portfolio -->
 
 <div id="lg">
-  <h2>I nostri partners</h2>
+  <h2><%= t(:main_partners_title) %></h2>
   <div class="container">
     <div class="row centered">
-      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-        <img src="../assets/img/clients/c01.gif" class="grayscale" alt="">
-      </div>
-      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-        <img src="../assets/img/clients/c02.gif" class="grayscale" alt="">
-      </div>
-      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-        <img src="../assets/img/clients/c03.gif" class="grayscale" alt="">
-      </div>
-      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-        <img src="../assets/img/clients/c04.gif" class="grayscale" alt="">
-      </div>
+
+      <% @partners.each do |partner| %>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+          <%= image_tag "pages/main/partners/#{partner[:image_name]}", class: 'grayscale' %>
+        </div>
+      <% end %>
+
     </div>
-    <!-- row -->
   </div>
-  <!-- container -->
-</div>
-<!-- dg -->
-<!-- container -->
+</div> <!-- #lg -->

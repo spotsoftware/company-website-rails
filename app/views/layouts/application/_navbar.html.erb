@@ -1,13 +1,13 @@
 <div class="cbp-af-header">
   <div class="cbp-af-inner">
-    <h1>Spot Software</h1>
+    <h1>SPOT Software</h1>
     <nav>
       <% @navbar_links.each do |navbar_link| %>
-        <a href="<%= navbar_link[:link] %>"><%= navbar_link[:title] %></a>
+        <%= link_to navbar_link[:title], navbar_link[:link], class: current_page?(navbar_link[:link]) ? 'active' : '' %>
       <% end %>
 
       <% @navbar_anchors.each do |navbar_anchor| %>
-        <a href="<%= navbar_anchor[:anchor] %>"><%= navbar_anchor[:title] %></a>
+        <%= link_to navbar_anchor[:title], "##{navbar_anchor[:anchor]}", 'data-bind' => 'click: scrollToAnchor' %>
       <% end %>
     </nav>
   </div>

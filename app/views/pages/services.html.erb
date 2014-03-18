@@ -1,67 +1,30 @@
-<!-- MAIN IMAGE SECTION -->
 <div id="serviceswrap">
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2">
-
       </div>
     </div>
-    <!-- row -->
   </div>
-  <!-- /container -->
-</div>
-<!-- /headerwrap -->
+</div> <!-- #serviceswrap -->
 
-<!-- PROCESS SECTION -->
 <div class="container">
   <div class="row mt">
     <div class="col-lg-12">
-      <h1>Soluzioni</h1>
+      <h1><%= t(:services_title) %></h1>
       <hr>
-      <h2>Progettiamo e sviluppiamo software per l'integrazione di sistemi informativi con applicazioni web, siti Internet dinamici e dispositivi mobili.</h2>
-
+      <h2><%= t(:services_subtitle) %></h2>
     </div>
   </div>
 </div>
+
 <div class="container">
-  <div class="row mt">
-    <div class="col-lg-12">
-      <h3>
-        <b>MOBILE</b>
-      </h3>
-      <hr>
-      <p>Abbiamo sviluppato la prima applicazione mobile nel 2003, e da allora continuiamo a farlo.</br>
-        Ogni soluzione che approntiamo comporta sempre nuove sfide tecnologiche e a noi queste sfide piacciono particolarmente.</br>
-        Ogni progetto mobile ha il grande vantaggio di sfuttare la rete, appunto in mobilità grazie a dispositivi come smartphone, tablet, netbook. Questo comporta contenuti che devono essere fruibili agevolmente e velocemente.</br>
-        Sviluppiamo progetti con interfacce responsive che si adattano ai vari device ed alle diverse risoluzioni.
-
-      </p>
-      <br>
-      <h3>
-        <b>PROGETTI PERSONALIZZATI</b>
-      </h3>
-      <hr>
-      <p>In quasi 15 anni di esperienza nel settore dello sviluppo di applicazioni software personalizzate abbiamo esplorato i più svariati campi operativi, raggiungendo sempre gli obiettivi dei progetti affrontati.
-        L'integrazione di sistemi informativi eterogenei (prodotti cioè da software house diverse o operanti su basi dati diverse) è uno degli ambiti in cui interveniamo più di frequente, interfacciandoci spesso con altri produttori di software, per arrivare a soluzioni funzionali ed economicamente convenienti per l'azienda committente.
-
-        Inoltre poniamo sempre grande attenzione allo sviluppo dell' interfaccia utente, in modo da creare software visivamente gradevoli e altamente usabili.
-      </p>
-      <br>
-      <h3>
-        <b>WEB</b>
-      </h3>
-      <hr>
-      <p>Nel 1999, tra i primi in Italia, abbiamo realizzato un sistema di gestione ordini on-line per un'azienda di catering. Dal quel momento abbiamo realizzato oltre 80 siti, tutti diversi, ma tutti con un unico obiettivo: offrire un'esperienza di navigazione di alto livello.</br>
-        I nostri siti web dinamici sono dotati di un sistema di gestione dei contenuti open source (il che vi renderà autonomi nel loro aggiornamento senza legarvi a vita alla nostra struttura) e nascono con architetture search engine friendly, che li rendono ideali per sviluppare attività che richiedono visibilità nei motori di ricerca.</br>
-
-        Negli oltre dieci anni di attività abbiamo sviluppato portali tematici, intranet ed extranet per la gestione di ordini on-line, siti di e-commerce integrati con gestionali aziendali, servizi e applicazioni mobile per terminali portatili.
-      </p>
-      <br>
-
+  <% @services.each do |service| %>
+    <div class="row mt">
+      <div class="col-lg-12">
+        <h3><b><%= service[:title].upcase %></b></h3>
+        <hr>
+        <p><%= service[:description] %></p>
+      </div>
     </div>
-
-    <!-- col-lg-4 -->
-  </div>
-  <!-- /row -->
+  <% end %>
 </div>
-<!-- /.container -->
