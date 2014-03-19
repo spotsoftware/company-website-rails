@@ -9,7 +9,11 @@ class ApplicationController < ActionController::Base
   protected
 
   def set_locale
-    I18n.locale = params[:locale] || get_locale_from_geoip || I18n.default_locale
+    I18n.locale =
+        params[:locale] ||                                                        # 1: Locale parameter
+        http_accept_language.compatible_language_from(I18n.available_locales) ||  # 2: Accept-Language HTTP Header
+        get_locale_from_geoip ||                                                  # 3: GeoIP
+        I18n.default_locale                                                       # 4: Default locale
   end
 
 

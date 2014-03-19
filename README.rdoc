@@ -1,28 +1,70 @@
-== README
+== Company Website
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+With love from SPOT Software Team ;-)
 
-Things you may want to cover:
+Based on {BlackTie Link Theme}[http://www.blacktie.co/2013/11/link-bootstrap-3-agency-theme/]
 
-* Ruby version
+Using:
 
-* System dependencies
+- RubyOnRails
+- KnockoutJS
+- SASS, CoffeeScript
+- ...
 
-* Configuration
+others coming soon ...
 
-* Database creation
+Enjoy It !
 
-* Database initialization
+{www.spot.it}[www.spot.it]
 
-* How to run the test suite
+=== Informations
 
-* Services (job queues, cache servers, search engines, etc.)
+==== Localization
 
-* Deployment instructions
+Handled by the +Rails+ +I18n+ part.
 
-* ...
+It currently handles:
+* *English* (:en)
+* *Italian* (:it)
+* ... _additional translations are welcome !_
 
+The language selection policy is currently:
+* Firstly check if the http parameter locale is given. In that case use the provided locale
+* Then check if there is the Accept-Language HTTP header (following the RFC 2616 conventions). If it's given, use that locale
+* Then use _GeoIP_ to find the right locale from the current geographical position of the client
+* Finally use the default locale (which is currently :it)
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+==== Analytics
+
+It uses GoogleAnalytics, which is configured in the +application.rb+. The configuration parameters are:
+* Id (in the format of: 'UA-xxxxxxx-x')
+* Domain: (e.g.: 'example.com')
+
+=== Development instructions
+
+==== Ruby version
+
+See the +.ruby-version+ file
+
+==== Rake tasks
+
+See +rake+ +-T+
+
+The most useful tasks are:
+* Database creation: +bundle+ +exec+ +rake+ +db+:+create+
+* Database initialization: +bundle+ +exec+ +rake+ +db+:+migrate+
+* Run tests: +bundle+ +exec+ +rake+ +test+:+all+
+* Generate documentation: +bundle+ +exec+ +rake+ +doc+:+rails+ or +bundle+ +exec+ +rake+ +doc+:+app+
+
+=== Deployment instructions
+
+Deployment can be handled with Capistrano.
+The main configuration files are:
+* +Capfile+: Entry-point for capistrano. It usually defines the capistrano tasks
+* +config/deploy.rb+: The capistrano configuration
+
+*Don't use it at the moment. It hasn't been tested yet*
+
+==== Dependencies
+* +RBEnv+
+* +Unicorn+

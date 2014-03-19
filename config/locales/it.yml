@@ -68,7 +68,7 @@ it:
   # ==> Services
 
   services_title: "Soluzioni"
-  services_subtitle: "Progettiamo e sviluppiamo software per l'integrazione di sistemi informativi con applicazioni web, siti Internet dinamici e dispositivi mobili"# }
+  services_subtitle: "Progettiamo e sviluppiamo software per l'integrazione di sistemi informativi con applicazioni web, siti Internet dinamici e dispositivi mobili"
   services_mobile_title: "Mobile"
   services_mobile_description: "Abbiamo sviluppato la prima applicazione mobile nel 2003, e da allora continuiamo a farlo. Ogni soluzione che approntiamo comporta sempre nuove sfide tecnologiche e a noi queste sfide piacciono particolarmente. Ogni progetto mobile ha il grande vantaggio di sfuttare la rete, appunto in mobilità grazie a dispositivi come smartphone, tablet, netbook. Questo comporta contenuti che devono essere fruibili agevolmente e velocemente. Sviluppiamo progetti con interfacce responsive che si adattano ai vari device ed alle diverse risoluzioni"
   services_custom_projects_title: "progetti personalizzati"

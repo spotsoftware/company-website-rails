@@ -6,12 +6,19 @@ gem 'rails', '4.0.3'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
 
+# { Localization
+
 gem 'geoip'
 
-group :doc do
-  # bundle exec rake doc:rails generates the API under doc/api.
-  gem 'sdoc', require: false
-end
+gem 'http_accept_language'
+
+# }
+
+# { Documentation
+
+gem 'sdoc', require: false, group: :doc
+
+# }
 
 # { DB
 
@@ -33,6 +40,9 @@ gem 'unicorn'
 
 # Use Capistrano for deployment
 gem 'capistrano', group: :development
+gem 'capistrano3-unicorn', group: :development
+gem 'capistrano-rails', group: :development
+gem 'capistrano-bundler', group: :development
 
 # }
 
