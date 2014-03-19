@@ -17,7 +17,7 @@ en:
 
   # ==> Footer
 
-  contact_location_title: "Where we are"
+  contact_location_title: "Location"
   contact_fiscal_code: "Fiscal code, VAT, business identification number recorded in the Forlì-Cesena Business Registry"
   contact_capital: "Paid-Up Capital: 15.600,00 euro"
   contact_rights_reserved: "All rights reserved"
@@ -37,46 +37,46 @@ en:
 
   # ==> About
 
-  about_title: "Who we are"
-  about_team_kind: "We are an passionate, cross-skilled, agile team"
-  about_work_kind: "We design and develop custom software to realize integration solutions and dynamic web sites"
-  about_work_history: "In more than fifteen years of actively development in the software-market, we learned how to realize software which is technically advanced with low-costs and how to create usable, attractive, search-engine-optimized websites"
-  about_beliefs: "We strongly believe in the people of our team and in their professional development. We think that the right people and the right tools are a wonderful starting point in order to begin a mutual satisfaction with our clients"
-  about_services_analysis_title: "Analysis"
-  about_services_analysis_details: "We will analyse the problem together in order to build a detailed work-plan, with work-flows and highlighting the critical issues. Sometimes there is the need to expand the know-how about the frame-work used by the customer. Following this phase, we will share the analysis results with a series of short but detailed design documents, following the UML-standard (Unified Modeling Language)"
+  about_title: "About"
+  about_team_kind: "We are a deft and passionate team, with a variety of skills and competences."
+  about_work_kind: "We design and develop custom software in order to create integration solutions and dynamic websites."
+  about_work_history: "With over 15 years’ active presence on the market, we have learned to create low-cost but state-of-the-art software, and usable but graphically appealing websites with high search engine visibility."
+  about_beliefs: "We strongly believe in the quality of our team and its up-to-date expertise. We think that having the right people with the right tools and skills is the best starting point for a mutually satisfactory relationship with our clients."
+  about_services_analysis_title: "Analysis"  
+  about_services_analysis_details: "We start by making a situation analysis together in order to build a detailed working plan, with project flows, focusing on the critical points. Sometimes these analyses need us to acquire operational knowhow about the framework used by the client. At the end of this stage, we share the analysis’ results by means of several project documents, concise but detailed, also according to the UML (Unified Modeling Language) standard."
   about_services_development_title: "Development"
-  about_services_development_details: "Following the analysis phase, we will begin to work on the solution, eventually finding third-party components in order to speed-up and standardize the development process, leveraging consolidated know-hows in the best development communities, for example by getting just-in-time support from Microsoft (as we are certificate partners). In this phase we will plan meetings to evaluate the coherence of the product and to verify the development state together"
-  about_services_test_title: "Test"
-  about_services_test_details: "After a formal validation of the project by the client, a testing phase will be started to stress the developed applications, in order to simulate real-world operational conditions. The tests will be validated by the project leader, and, subsequently, by a team specialized in testing and validation of software products"
+  about_services_development_details: "Following the analysis, we start developing the solution. If convenient, we refer to software components by other producers in order to speed and standardize the process according to well-established practices in the best software development communities. We often get direct Microsoft support, being one of their certified partners. At this stage some meetings are planned to assess the consistency of what has been developed and verify how the project is progressing."
+  about_services_test_title: "Testing"
+  about_services_test_details: "After a formal approval of the project by the client, a testing stage follows: the final software applications are tried out in simulated operative conditions. The tests will be approved by the project manager, and later by a team specialized in software products validation."
   about_services_deployment_title: "Deployment"
-  about_services_deployment_details: "Once the tests are successful, the deployment phase will be started. In the case of a web project, this will result in a web deployoment. If needed, specific supports and procedures can be developed for the autonomous installation of the solution. Naturally, the deployment team will be kept in touch with the customer for the time span required to handle eventual issues regarding the adaptation to the hosting platform"
+  about_services_deployment_details: "Having stood the internal tests, a deployment stage starts. Web projects are published online. If required, specific tools and procedures can be developed for an autonomous installation of the product by the client. Of course, we will stay in close contact should there be any problem in the adjustment to the client hardware requirements."
   about_services_maintenance_title: "Maintenance"
-  about_services_maintenance_details: "Grazie alla modularità con cui vengono progettati i prodotti è possibile effettuare con facilità manutenzioni evolutive. Eventuali modifiche dei flussi aziendali dei nostri clienti possono richiedere variazioni, anche strutturali, dei prodotti. Progettare una soluzione personalizzata significa inoltre prevedere il massimo grado di integrabilità con i sistemi esistenti per minimizzare gli interventi di manutenzione"
+  about_services_maintenance_details: "Thanks to the modularity of the projects, it is easy to carry out adaptive maintenance and enhancement. Possible changes in our clients’ business flows may require product adjustments, even structural ones. Designing a custom solution also means implement the best integrated product with the existing environment, in order to minimize maintenance interventions."
 
   # ==> Main
 
-  main_read_everything: "read everything"
-  main_presentation: "We are a software house that produces customized solutions"
+  main_read_everything: "read all"
+  main_presentation: "We are a software company of custom solutions"
   main_claim: "We Make Software"
   main_services_web_title: "Web"
   main_services_custom_solutions_title: "Custom solutions"
   main_services_mobile_title: "Mobile"
   main_partners_title: "Our partners"
-  main_portfolio_items_glass_title: "Google Glass - We are exploring new integrations with applications in the fields of tourism, entertainment and wellness"
+  main_portfolio_items_glass_title: "Google Glass - We are exploring for new integrations with applications in the fields of tourism, entertainment and wellness"
   main_portfolio_items_echo_nest_title: "In partnership with Technogym, is participating to the Music Hack Day in Boston. Thanks to the Echo Nest, the leading music intelligence company, we are going to present innovative ideas and new technologies"
-  main_portfolio_items_leap_motion_title: "Leap Motion - We are evaluating our productivity developing with hands...stay tuned ;)"
-  main_portfolio_items_chromecast_title: "Google Chromecast - It has revolutionized our relaxing room both at work and at home...and our application is already planned"
+  main_portfolio_items_leap_motion_title: "Leap Motion - We are evaluating our productivity in developing with our hands... Stay tuned "
+  main_portfolio_items_chromecast_title: "Google Chromecast - It has revolutionized our relaxing room both at work and at home... And our application is well on the way "
   main_portfolio_items_pebble_title: "Pebble - Teacher, what time is it?"
 
   # ==> Services
 
   services_title: "Solutions"
-  services_subtitle: "We design and develop software for integrating informative systems with web applications, dynamic web sites and mobile devices"
+  services_subtitle: "Thanks to the modularity of the projects, it is easy to carry out adaptive maintenance and enhancement. Possible changes in our clients’ business flows may require product adjustments, even structural ones. Designing a custom solution also means implement the best integrated product with the existing environment, in order to minimize maintenance interventions."
   services_mobile_title: "mobile"
-  services_mobile_description: "We have developed the first mobile application in 2003, and since then we continue to develop mobile applications. For every solution, we have to face new technological challenges, and we love that. Every mobile project has the great advantage that it has to use the network in mobile scenarios (smartphone, tablet, netbook). This requirement involves that contents have to be easily and quickly accessible. We develop projects with responsive interfaces that adapt to different devices and resolutions"
+  services_mobile_description: "We developed our first mobile application in 2003 and we have been developing mobile apps ever since. Every new solution entails new technological challenges and we are thrilled by such challenges. Every mobile project makes the most of the mobile web, thanks to devices such as smartphones, tablets, and netbooks, which require high levels of usability. We develop projects with responsive interfaces, adaptable to different devices and resolutions."
   services_custom_projects_title: "custom projects"
-  services_custom_projects_description: "In quasi 15 anni di esperienza nel settore dello sviluppo di applicazioni software personalizzate abbiamo esplorato i più svariati campi operativi, raggiungendo sempre gli obiettivi dei progetti affrontati. L'integrazione di sistemi informativi eterogenei (prodotti cioè da software house diverse o operanti su basi dati diverse) è uno degli ambiti in cui interveniamo più di frequente, interfacciandoci spesso con altri produttori di software, per arrivare a soluzioni funzionali ed economicamente convenienti per l'azienda committente. Inoltre poniamo sempre grande attenzione allo sviluppo dell' interfaccia utente, in modo da creare software visivamente gradevoli e altamente usabili"
+  services_custom_projects_description: "With over 15 years’ experience developing custom software applications, we have explored multiple operative fields and invariably reached our goals. One of the areas in which we work more often is the integration of diversified information systems, produced by other software companies or operating on different databases. Thus we deal with other software producers in order to find the most functional and economically convenient solution for our clients. We also put particular care in developing the user interface, so that our software products are both graphically appealing and easy to use."
   services_web_title: "web"
-  services_web_description: "Nel 1999, tra i primi in Italia, abbiamo realizzato un sistema di gestione ordini on-line per un'azienda di catering. Dal quel momento abbiamo realizzato oltre 80 siti, tutti diversi, ma tutti con un unico obiettivo: offrire un'esperienza di navigazione di alto livello. I nostri siti web dinamici sono dotati di un sistema di gestione dei contenuti open source (il che vi renderà autonomi nel loro aggiornamento senza legarvi a vita alla nostra struttura) e nascono con architetture search engine friendly, che li rendono ideali per sviluppare attività che richiedono visibilità nei motori di ricerca. Negli oltre dieci anni di attività abbiamo sviluppato portali tematici, intranet ed extranet per la gestione di ordini on-line, siti di e-commerce integrati con gestionali aziendali, servizi e applicazioni mobile per terminali portatili"
+  services_web_description: "Among the first in Italy, in 1999 we realized an online order management system for a catering company. Since then we have developed more than 80 sites, all of them different, but having the same purpose: to provide a high-quality browsing experience. Our dynamic websites come with an open-source content management system, which makes our clients autonomous as for upgrading, without being dependent on us forever. Our dynamic websites are designed with a search engine friendly architecture, which makes them ideal for businesses that require search engine visibility. In more than 10 years we have developed thematic portals, online order management intranets and extranets, e-commerce sites integrated with management information systems, and mobile services and applications for portable devices."
 
   # }
