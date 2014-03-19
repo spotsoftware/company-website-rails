@@ -9,6 +9,9 @@
 /log/*.log
 /tmp
 
+# Documentation can be genera
+/doc
+
 # Ignore private files
 /config/database.yml
 /config/initializers/secret_token.rb
