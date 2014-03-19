@@ -22,6 +22,9 @@ en:
   contact_capital: "Paid-Up Capital: 15.600,00 euro"
   contact_rights_reserved: "All rights reserved"
 
+  contact_theme_provided_by: "provided by"
+  contact_used_theme: "Theme used:"
+
   # ==> Social
 
   facebook_become_friend: "Become A Friend"

@@ -22,6 +22,9 @@ it:
   contact_capital: "Capitale sociale euro 15.600,00 interamente versato"
   contact_rights_reserved: "Tutti i diritti riservati"
 
+  contact_theme_provided_by: "fornito da"
+  contact_used_theme: "Tema utilizzato"
+
   # ==> Social
 
   facebook_become_friend: "Diventa amico"
