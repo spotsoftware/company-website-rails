@@ -3,10 +3,15 @@ class ApplicationController < ActionController::Base
   # Prevent CSRF attacks by raising an exception.
   protect_from_forgery with: :exception
 
-  before_filter :set_navbar_info, :set_analytics_info
-  before_action :set_locale
+  before_filter :set_info
 
   protected
+
+  def set_info
+    set_locale
+    set_navbar_info
+    set_navbar_info
+  end
 
   def set_locale
     I18n.locale =

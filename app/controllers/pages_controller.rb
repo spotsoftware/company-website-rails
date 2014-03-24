@@ -37,7 +37,7 @@ class PagesController < ApplicationController
             title: t(:main_portfolio_items_glass_title)
         },
         {
-            image_name: '4.jpg',
+            image_name: '4.png',
             title: t(:main_portfolio_items_echo_nest_title)
         },
         {
