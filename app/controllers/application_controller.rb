@@ -10,7 +10,7 @@ class ApplicationController < ActionController::Base
   def set_info
     set_locale
     set_navbar_info
-    set_navbar_info
+    set_analytics_info
   end
 
   def set_locale

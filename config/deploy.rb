@@ -3,7 +3,7 @@ lock '3.1.0'
 
 set :layouts, 'company_website'
 
-set :deploy_to, '/var/www/my_app'
+set :deploy_to, '/var/www/company-website-rails-prod'
 
 # Number of releases to keep
 set :keep_releases, 4
