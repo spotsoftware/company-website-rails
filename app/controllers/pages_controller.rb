@@ -16,6 +16,8 @@ class PagesController < ApplicationController
   protected
 
   def main
+    @title = t(:title_main) 
+    @meta_description = t(:meta_description_main)
     @services = [
         {
             icon_name: 'mobile',
@@ -63,6 +65,8 @@ class PagesController < ApplicationController
   end
 
   def about
+    @title = t(:title_about) 
+    @meta_description = t(:meta_description_about)
     @services = [
         {
             icon_name: 'certificate',
@@ -93,6 +97,8 @@ class PagesController < ApplicationController
   end
 
   def services
+    @title = t(:title_services)
+    @meta_description = t(:meta_description_services)
     @services = [
         {
             title: t(:services_mobile_title),

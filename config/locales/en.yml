@@ -36,7 +36,9 @@ en:
   # { Pages specific
 
   # ==> About
-
+  
+  title_about: "SPOT Software - About"
+  meta_description_about: "We design and develop custom software in order to create integration solutions and dynamic websites."
   about_title: "About"
   about_team_kind: "We are a deft and passionate team, with a variety of skills and competences."
   about_work_kind: "We design and develop custom software in order to create integration solutions and dynamic websites."
@@ -54,7 +56,9 @@ en:
   about_services_maintenance_details: "Thanks to the modularity of the projects, it is easy to carry out adaptive maintenance and enhancement. Possible changes in our clients’ business flows may require product adjustments, even structural ones. Designing a custom solution also means implement the best integrated product with the existing environment, in order to minimize maintenance interventions."
 
   # ==> Main
-
+  
+  title_main: "SPOT Software srl - Components & Solutions"
+  meta_description_main: "We are a software company of custom solutions"
   main_read_everything: "read all"
   main_presentation: "We are a software company of custom solutions"
   main_claim: "We Make Software"
@@ -70,8 +74,10 @@ en:
 
   # ==> Services
 
+  title_services: "SPOT Software - Services and Solutions"
+  meta_description_services: "We design and develop software for the integration of information systems with web applications, dynamic websites, and mobile devices."
   services_title: "Solutions"
-  services_subtitle: "Thanks to the modularity of the projects, it is easy to carry out adaptive maintenance and enhancement. Possible changes in our clients’ business flows may require product adjustments, even structural ones. Designing a custom solution also means implement the best integrated product with the existing environment, in order to minimize maintenance interventions."
+  services_subtitle: "We design and develop software for the integration of information systems with web applications, dynamic websites, and mobile devices."
   services_mobile_title: "mobile"
   services_mobile_description: "We developed our first mobile application in 2003 and we have been developing mobile apps ever since. Every new solution entails new technological challenges and we are thrilled by such challenges. Every mobile project makes the most of the mobile web, thanks to devices such as smartphones, tablets, and netbooks, which require high levels of usability. We develop projects with responsive interfaces, adaptable to different devices and resolutions."
   services_custom_projects_title: "custom projects"

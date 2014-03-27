@@ -2,8 +2,6 @@ it:
 
   # { Common
 
-  title: "SPOT Software - Componenti e soluzioni"
-
   # }
 
   # { "Application"-layout specific
@@ -36,7 +34,9 @@ it:
   # { Pages specific
 
   # ==> About
-
+  
+  title_about: "SPOT Software - Chi siamo"
+  meta_description_about: "Progettiamo e sviluppiamo software personalizzato per la realizzazione di soluzioni di integrazione e siti web dinamici"
   about_title: "Chi siamo"
   about_team_kind: "Siamo un team agile, appassionato, con competenze trasversali"
   about_work_kind: "Progettiamo e sviluppiamo software personalizzato per la realizzazione di soluzioni di integrazione e siti web dinamici"
@@ -54,7 +54,9 @@ it:
   about_services_maintenance_details: "Grazie alla modularità con cui vengono progettati i prodotti è possibile effettuare con facilità manutenzioni evolutive. Eventuali modifiche dei flussi aziendali dei nostri clienti possono richiedere variazioni, anche strutturali, dei prodotti. Progettare una soluzione personalizzata significa inoltre prevedere il massimo grado di integrabilità con i sistemi esistenti per minimizzare gli interventi di manutenzione"
 
   # ==> Main
-
+  
+  title_main: "SPOT Software srl - Components & Solutions"
+  meta_description_main: "Siamo una software house di soluzioni personalizzate"
   main_read_everything: "leggi tutto"
   main_presentation: "Siamo una software house di soluzioni personalizzate"
   main_claim: "We Make Software"
@@ -69,7 +71,9 @@ it:
   main_portfolio_items_pebble_title: "Pebble - Maestro che ore sono?"
 
   # ==> Services
-
+  
+  title_services: "SPOT Software - Servizi e Soluzioni"
+  meta_description_services: "Progettiamo e sviluppiamo software per l'integrazione di sistemi informativi con applicazioni web, siti Internet dinamici e dispositivi mobili"
   services_title: "Soluzioni"
   services_subtitle: "Progettiamo e sviluppiamo software per l'integrazione di sistemi informativi con applicazioni web, siti Internet dinamici e dispositivi mobili"
   services_mobile_title: "Mobile"
