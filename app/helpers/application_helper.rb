@@ -11,7 +11,7 @@ module ApplicationHelper
   def asset_path_for_specific_page
     File.join(
         params[:controller],
-        (params[:controller] != 'pages') ? params[:action] : params[:slug])
+        (params[:controller] != 'pages') ? params[:action] : params[:id])
   end
 
 end

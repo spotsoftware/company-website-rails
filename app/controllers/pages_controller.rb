@@ -1,17 +1,34 @@
 class PagesController < ApplicationController
 
   ALLOWED_PAGES = %i(main about services)
+    
+  def showMain
+      
+      page_id = "main"
+ 
+      self.send(page_id) 
+      render "pages/#{page_id}"
 
-  def show
-    page_id = ALLOWED_PAGES.include?(params['slug'].to_sym) ?
-        params['slug'].to_sym :
-        raise(ActionController::RoutingError.new('Not Found'))
+  end 
+    
+  def showAbout
+      
+      page_id = "about"
+ 
+      self.send(page_id) 
+      render "pages/#{page_id}"
 
+  end 
+    
+  def showServices
+      
+      page_id = "services"
+ 
+      self.send(page_id) 
+      render "pages/#{page_id}"
 
-    self.send(page_id)
-
-    render "pages/#{page_id}"
-  end
+  end 
+    
 
   protected
 
