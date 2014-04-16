@@ -20,12 +20,22 @@
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>http://www.spot.it/contatcs</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>http://www.spot.it/le-nostre-soluzioni-i-nostri-servizi</loc>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.spot.it/chi-siamo</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.spot.it/contatti</loc>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>

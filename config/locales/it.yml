@@ -6,7 +6,7 @@ it:
   
   solutions_url: "le-nostre-soluzioni-i-nostri-servizi"
   about_us_url: "chi-siamo"
-  contacts_url: "contact"
+  contacts_url: "contatti"
   
   title: "SPOT Software - Components & Solutions"
 
@@ -19,7 +19,7 @@ it:
   home_link_title: "Home"
   solutions_link_title: "Soluzioni"
   about_link_title: "Chi Siamo"
-  contacts_anchor_title: "Contatti"
+  contacts_link_title: "Contatti"
 
   # ==> Footer
 
@@ -90,5 +90,11 @@ it:
   services_custom_projects_description: "In quasi 15 anni di esperienza nel settore dello sviluppo di applicazioni software personalizzate abbiamo esplorato i più svariati campi operativi, raggiungendo sempre gli obiettivi dei progetti affrontati. L'integrazione di sistemi informativi eterogenei (prodotti cioè da software house diverse o operanti su basi dati diverse) è uno degli ambiti in cui interveniamo più di frequente, interfacciandoci spesso con altri produttori di software, per arrivare a soluzioni funzionali ed economicamente convenienti per l'azienda committente. Inoltre poniamo sempre grande attenzione allo sviluppo dell' interfaccia utente, in modo da creare software visivamente gradevoli e altamente usabili"
   services_web_title: "web"
   services_web_description: "Nel 1999, tra i primi in Italia, abbiamo realizzato un sistema di gestione ordini on-line per un'azienda di catering. Dal quel momento abbiamo realizzato oltre 80 siti, tutti diversi, ma tutti con un unico obiettivo: offrire un'esperienza di navigazione di alto livello. I nostri siti web dinamici sono dotati di un sistema di gestione dei contenuti open source (il che vi renderà autonomi nel loro aggiornamento senza legarvi a vita alla nostra struttura) e nascono con architetture search engine friendly, che li rendono ideali per sviluppare attività che richiedono visibilità nei motori di ricerca. Negli oltre dieci anni di attività abbiamo sviluppato portali tematici, intranet ed extranet per la gestione di ordini on-line, siti di e-commerce integrati con gestionali aziendali, servizi e applicazioni mobile per terminali portatili"
+
+  # ==> Contatti
+
+  title_contacts: "SPOT Software - Contatti"
+  meta_description_contacts: "Progettiamo e sviluppiamo software per l'integrazione di sistemi informativi con applicazioni web, siti Internet dinamici e dispositivi mobili"
+
 
   # }

@@ -21,11 +21,13 @@ CompanyWebsite::Application.routes.draw do
   match '/' => 'pages#showMain', :via => :get , :defaults => { :id => "main" }
   match '/about-us' => 'pages#showAbout', :via => :get , :defaults => { :id => "about" }
   match '/our-solutions-and-services' => 'pages#showServices', :via => :get , :defaults => { :id => "services" }
+  match '/contacts' => 'pages#showContacts', :via => :get , :defaults => { :id => "contacts" }
   
     
   #it - routes
     
   match '/chi-siamo' => 'pages#showAbout', :via => :get , :defaults => { :id => "about" }
   match '/le-nostre-soluzioni-i-nostri-servizi' => 'pages#showServices', :via => :get , :defaults => { :id => "services" }
+  match '/contatti' => 'pages#showContacts', :via => :get , :defaults => { :id => "contacts" }
     
 end

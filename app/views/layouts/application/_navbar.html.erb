@@ -3,7 +3,9 @@
     <h1>SPOT Software</h1>
     <nav>
       <% @navbar_links.each do |navbar_link| %>
-        <%= link_to navbar_link[:title], navbar_link[:link], class: current_page?(navbar_link[:link]) ? 'active' : '' %>
+        
+        <%= link_to navbar_link[:title], navbar_link[:link], class: current_page?(controller: 'pages', action: navbar_link[:action]) ? 'active' : '' %>
+      
       <% end %>
 
       <% @navbar_anchors.each do |navbar_anchor| %>

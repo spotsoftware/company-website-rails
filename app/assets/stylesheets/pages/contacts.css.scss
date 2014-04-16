@@ -1,0 +1,42 @@
+#aboutwrap {
+  background: image-url('pages/about/bg.jpg') no-repeat center top;
+  margin-top: -10px;
+  padding-top: 20px;
+  text-align: center;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 500px;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  h2 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-top: 150px;
+  }
+}
+
+// ==> Services
+
+#services {
+  background: #003366;
+  margin-top: 25px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+
+  h3 {
+    color: #fff;
+  }
+  p {
+    color: #fff;
+  }
+  i {
+    color: #fff;
+    font-size: 35px;
+  }
+}

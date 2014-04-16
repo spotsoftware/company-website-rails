@@ -28,7 +28,15 @@ class PagesController < ApplicationController
       render "pages/#{page_id}"
 
   end 
-    
+
+  def showContacts
+      
+      page_id = "contacts"
+ 
+      self.send(page_id) 
+      render "pages/#{page_id}"
+
+  end 
 
   protected
 
@@ -130,6 +138,11 @@ class PagesController < ApplicationController
             description: t(:services_web_description)
         }
     ]
+  end
+
+  def contacts
+    @title = t(:title_contacts)
+    @meta_description = t(:meta_description_contacts)
   end
 
 end
