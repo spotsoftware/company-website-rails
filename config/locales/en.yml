@@ -1,6 +1,12 @@
 en:
 
   # { Common
+  
+  # ==> Url
+  
+  solutions_url: "our-solutions-and-services"
+  about_us_url: "about-us"
+  contacts_url: "contact"
 
   title: "SPOT Software - Components & Solutions"
 
@@ -37,7 +43,7 @@ en:
 
   # ==> About
   
-  title_about: "SPOT Software - About"
+  title_about: "SPOT Software - About us"
   meta_description_about: "We design and develop custom software in order to create integration solutions and dynamic websites."
   about_title: "About"
   about_team_kind: "We are a deft and passionate team, with a variety of skills and competences."

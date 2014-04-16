@@ -35,11 +35,11 @@ class ApplicationController < ActionController::Base
   def set_navbar_info
     @navbar_links = [
         { title: t(:home_link_title), link: '/' },
-        { title: t(:solutions_link_title), link: '/solutions' },
-        { title: t(:about_link_title), link: '/about-us' }
+        { title: t(:solutions_link_title), link: t(:solutions_url) },
+        { title: t(:about_link_title), link: t(:about_us_url) }
     ]
     @navbar_anchors = [
-        { title: t(:contacts_anchor_title), anchor: 'contact' }
+        { title: t(:contacts_anchor_title), anchor: t(:contacts_url) }
     ]
   end
 

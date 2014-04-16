@@ -15,9 +15,17 @@ CompanyWebsite::Application.routes.draw do
     
   #get '/index', to: 'pages#main', defaults: {id:'/main'}
   #match '/index' => 'pages#main', :via => :get 
+
+  #en - routes
     
   match '/' => 'pages#showMain', :via => :get , :defaults => { :id => "main" }
   match '/about-us' => 'pages#showAbout', :via => :get , :defaults => { :id => "about" }
-  match '/solutions' => 'pages#showServices', :via => :get , :defaults => { :id => "services" }
+  match '/our-solutions-and-services' => 'pages#showServices', :via => :get , :defaults => { :id => "services" }
+  
+    
+  #it - routes
+    
+  match '/chi-siamo' => 'pages#showAbout', :via => :get , :defaults => { :id => "about" }
+  match '/le-nostre-soluzioni-i-nostri-servizi' => 'pages#showServices', :via => :get , :defaults => { :id => "services" }
     
 end

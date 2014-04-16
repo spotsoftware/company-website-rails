@@ -1,6 +1,14 @@
 it:
 
   # { Common
+  
+  # ==> Url
+  
+  solutions_url: "le-nostre-soluzioni-i-nostri-servizi"
+  about_us_url: "chi-siamo"
+  contacts_url: "contact"
+  
+  title: "SPOT Software - Components & Solutions"
 
   # }
 
