@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby "2.1.1"
 
 
 gem 'rails', '4.0.3'
@@ -35,14 +36,17 @@ gem 'bcrypt', '~> 3.1.2'
 # Use debugger
 gem 'debugger', group: [:development, :test]
 
-# Use unicorn as the app server
-gem 'unicorn'
+gem 'foreman'
 
-# Use Capistrano for deployment
-gem 'capistrano', group: :development
-gem 'capistrano3-unicorn', group: :development
-gem 'capistrano-rails', group: :development
-gem 'capistrano-bundler', group: :development
+# }
+
+# { Deployment
+
+# Heroku integration (https://devcenter.heroku.com/articles/getting-started-with-rails4#heroku-gems)
+gem 'rails_12factor', group: :production
+
+# Use unicorn as the webserver in production.
+gem 'unicorn'
 
 # }
 
