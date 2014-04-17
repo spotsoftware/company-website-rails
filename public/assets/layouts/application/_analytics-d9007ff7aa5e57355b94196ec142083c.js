@@ -1,1 +1,0 @@
-(function(){$(document).on("page:change",function(){return null!=window._gaq?_gaq.push(["_trackPageview"]):null!=window.pageTracker?pageTracker._trackPageview():void 0})}).call(this);
