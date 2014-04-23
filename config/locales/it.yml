@@ -96,5 +96,16 @@ it:
   title_contacts: "SPOT Software - Contatti"
   meta_description_contacts: "Progettiamo e sviluppiamo software per l'integrazione di sistemi informativi con applicazioni web, siti Internet dinamici e dispositivi mobili"
 
+  # }
+
+  # { Errors specific
+
+  # ==> Keep calm
+
+  errors_keep_calm: "keep calm"
+  errors_keep_calm_and: "and"
+  errors_keep_calm_sorry: "sorry"
+  errors_keep_calm_sometimes_we_fail: "sometimes we fail"
+  errors_keep_calm_url_not_found: "the requested url was not found"
 
   # }

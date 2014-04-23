@@ -1,10 +1,8 @@
 class ErrorsController < ApplicationController
 
   def not_found
-    @parts = OpenStruct.new(has_navbar?: true, has_footer?: true, has_social?: false, has_analytics?: false)
+    @parts = OpenStruct.new(has_navbar?: true, has_footer?: false, has_social?: false, has_analytics?: false)
     @not_found_path = request.fullpath
-
-    puts "PIPPO"
 
     respond_to do |format|
       format.html do
@@ -15,9 +13,7 @@ class ErrorsController < ApplicationController
   end
 
   def server_error
-    @parts = OpenStruct.new(has_navbar?: true, has_footer?: true, has_social?: false, has_analytics?: false)
-
-    puts "PLUTO"
+    @parts = OpenStruct.new(has_navbar?: true, has_footer?: false, has_social?: false, has_analytics?: false)
 
     respond_to do |format|
       format.html do

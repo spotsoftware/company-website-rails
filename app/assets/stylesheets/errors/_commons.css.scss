@@ -1,0 +1,21 @@
+@import "commons/large_header";
+
+
+$text-color: #ffa500;
+
+
+.keep-calm-wrapper {
+
+  .keep-calm,.sorry,.sometime-we-fail {
+    font-weight: normal;
+    font-size: 5em;
+    color: $text-color;
+  }
+
+  .and {
+    font-weight: bold;
+    font-size: 2em;
+    color: $text-color;
+  }
+
+}
