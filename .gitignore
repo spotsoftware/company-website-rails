@@ -20,3 +20,6 @@
 *.sublime-project
 *.sublime-workspace
 
+# Ignore RubyMine / IntelliJIDEA project files
+.idea
+

@@ -14,23 +14,31 @@ class ApplicationController < ActionController::Base
   end
 
   def set_locale
-    I18n.locale =
-        params[:locale] ||                                                        # 1: Locale parameter
-        http_accept_language.compatible_language_from(I18n.available_locales) ||  # 2: Accept-Language HTTP Header
-        get_locale_from_geoip ||                                                  # 3: GeoIP
-        I18n.default_locale                                                       # 4: Default locale
-  end
-
-
-  @@geoip ||= GeoIP.new(Rails.root.join('db', 'GeoIP.dat'))
-  def get_locale_from_geoip
-    remote_ip = request.remote_ip
-
-    if remote_ip != "127.0.0.1" # Skip localhost
-      location_location = @@geoip.country(remote_ip)
-      location_location != nil ? location_location[2] : nil
+    locale = params[:locale] ? params[:locale].to_sym : nil
+    I18n.locale = if locale and I18n.available_locales.include?(locale) # 1: Locale parameter
+      params[:locale]
+    else
+      request_locale = http_accept_language.compatible_language_from(I18n.available_locales)
+      if request_locale # 2: Accept-Language HTTP Header
+        request_locale
+      else # 3: Default locale
+        I18n.default_locale
+      end
     end
+
   end
+
+  # @@geoip ||= GeoIP.new(Rails.root.join('db', 'GeoIP.dat'))
+  # def get_locale_from_geoip
+  #   return nil if request.nil? or request.remote_ip.nil?
+
+  #   remote_ip = request.remote_ip
+
+  #   if remote_ip != "127.0.0.1" # Skip localhost
+  #     location_location = @@geoip.country(remote_ip)
+  #     location_location != nil ? location_location[2] : nil
+  #   end
+  # end
 
   def set_navbar_info
     @navbar_links = [
@@ -40,7 +48,7 @@ class ApplicationController < ActionController::Base
         { title: t(:contacts_link_title), link: t(:contacts_url) , action:'showContacts'}
     ]
     @navbar_anchors = [
-        
+
     ]
   end
 
