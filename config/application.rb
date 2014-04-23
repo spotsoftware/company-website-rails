@@ -19,7 +19,9 @@ module CompanyWebsite
     # Set the default locale.
     config.i18n.default_locale = :en
 
+    # enforce_available_locales to false due to bad push of i18n guys :) Remove after RoR upgrade
     config.i18n.enforce_available_locales = false
+    I18n.enforce_available_locales = false
     #I18n.config.enforce_available_locales = true
 
     config.assets.paths << Rails.root.join('app', 'assets', 'fonts')
