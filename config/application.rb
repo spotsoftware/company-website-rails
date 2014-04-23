@@ -17,7 +17,7 @@ module CompanyWebsite
     config.time_zone = 'Rome'
 
     # Set the default locale.
-    config.i18n.default_locale = :it
+    config.i18n.default_locale = :en
 
     I18n.config.enforce_available_locales = true
 
