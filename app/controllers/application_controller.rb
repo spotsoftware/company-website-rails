@@ -11,14 +11,14 @@ class ApplicationController < ActionController::Base
   #if Rails.env.production?
 
   rescue_from Exception do |exception|
-    render controller: 'errors', action: 'server_error'
+    redirect_to '/500'
   end
 
   [ ActionController::RoutingError,
     ActionController::UnknownController,
     ActiveRecord::RecordNotFound].each do |exception_class|
       rescue_from exception_class do |exception|
-        render controller: 'errors', action: 'not_found'
+        redirect_to '/404'
       end
   end
 

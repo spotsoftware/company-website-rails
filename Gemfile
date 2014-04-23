@@ -48,7 +48,7 @@ gem 'foreman'
 # Heroku integration (https://devcenter.heroku.com/articles/getting-started-with-rails4#heroku-gems)
 gem 'rails_12factor', group: :production
 
-# Use unicorn as the webserver in production.
+# Use unicorn as the web server in production.
 gem 'unicorn'
 
 # }
