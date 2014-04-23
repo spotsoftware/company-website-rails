@@ -12,7 +12,7 @@ class PagesController < ApplicationController
 
   def showAbout
     page_id = "about"
-    raise Exception.new
+
     self.send(page_id)
     render_page page_id
   end

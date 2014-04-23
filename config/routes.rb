@@ -10,10 +10,10 @@ CompanyWebsite::Application.routes.draw do
 
   # :en
 
-  match '/' => 'pages#showMain', :via => :get , :defaults => { :id => "main" }
-  match '/about-us' => 'pages#showAbout', :via => :get , :defaults => { :id => "about" }
+  match '/' => 'pages#showMain', via: :get, :defaults => {id: "main"}
+  match '/about-us' => 'pages#showAbout', via: :get, defaults: {id: "about"}
   match '/our-solutions-and-services' => 'pages#showServices', via: :get, defaults: {id: "services"}
-  match '/contacts' => 'pages#showContacts', :via => :get , :defaults => { :id => "contacts" }
+  match '/contacts' => 'pages#showContacts', via: :get, defaults: {:id => "contacts"}
 
   # :it
 
