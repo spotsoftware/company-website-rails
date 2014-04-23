@@ -1,3 +1,6 @@
+require 'ostruct'
+
+
 class ApplicationController < ActionController::Base
 
   # Prevent CSRF attacks by raising an exception.
@@ -5,12 +8,38 @@ class ApplicationController < ActionController::Base
 
   before_filter :set_info
 
+  #if Rails.env.production?
+
+  rescue_from Exception do |exception|
+    render controller: 'errors', action: 'server_error'
+  end
+
+  [ ActionController::RoutingError,
+    ActionController::UnknownController,
+    ActiveRecord::RecordNotFound].each do |exception_class|
+      rescue_from exception_class do |exception|
+        render controller: 'errors', action: 'not_found'
+      end
+  end
+
+  #end
+
   protected
 
   def set_info
+    set_default_parts
+
     set_locale
     set_navbar_info
     set_analytics_info
+  end
+
+  def set_default_parts
+    @parts = OpenStruct.new(
+      has_navbar?: true,
+      has_footer?: true,
+      has_social?: true,
+      has_analytics?: true)
   end
 
   def set_locale

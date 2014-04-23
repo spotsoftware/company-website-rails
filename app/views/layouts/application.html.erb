@@ -28,15 +28,15 @@
 </head>
 <body>
 
-<%= render 'layouts/application/navbar' %>
+<%= render 'layouts/application/navbar' if @parts.has_navbar? %>
 
 <%= yield %>
 
-<%= render 'layouts/application/footer' %>
+<%= render('layouts/application/footer') if @parts.has_footer? %>
 
-<%= render 'layouts/application/social' %>
+<%= render('layouts/application/social') if @parts.has_social? %>
 
-<%= render 'layouts/application/analytics' %>
+<%= render('layouts/application/analytics') if @parts.has_analytics? %>
 
 </body>
 </html>

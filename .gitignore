@@ -23,3 +23,6 @@
 # Ignore RubyMine / IntelliJIDEA project files
 .idea
 
+# Ignore public files
+/public/assets
+

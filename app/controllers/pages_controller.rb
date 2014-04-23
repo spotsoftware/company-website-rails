@@ -1,47 +1,40 @@
 class PagesController < ApplicationController
 
   ALLOWED_PAGES = %i(main about services)
-    
+
+
   def showMain
-      
-      page_id = "main"
- 
-      self.send(page_id) 
-      render "pages/#{page_id}"
+    page_id = "main"
 
-  end 
-    
+    self.send(page_id)
+    render_page page_id
+  end
+
   def showAbout
-      
-      page_id = "about"
- 
-      self.send(page_id) 
-      render "pages/#{page_id}"
+    page_id = "about"
 
-  end 
-    
+    self.send(page_id)
+    render_page page_id
+  end
+
   def showServices
-      
-      page_id = "services"
- 
-      self.send(page_id) 
-      render "pages/#{page_id}"
+    page_id = "services"
 
-  end 
+    self.send(page_id)
+    render_page page_id
+  end
 
   def showContacts
-      
-      page_id = "contacts"
- 
-      self.send(page_id) 
-      render "pages/#{page_id}"
+    page_id = "contacts"
 
-  end 
+    self.send(page_id)
+    render_page page_id
+  end
 
   protected
 
   def main
-    @title = t(:title_main) 
+    @title = t(:title_main)
     @meta_description = t(:meta_description_main)
     @services = [
         {
@@ -90,7 +83,7 @@ class PagesController < ApplicationController
   end
 
   def about
-    @title = t(:title_about) 
+    @title = t(:title_about)
     @meta_description = t(:meta_description_about)
     @services = [
         {
@@ -143,6 +136,10 @@ class PagesController < ApplicationController
   def contacts
     @title = t(:title_contacts)
     @meta_description = t(:meta_description_contacts)
+  end
+
+  def render_page(page_id)
+    render "pages/#{page_id}"
   end
 
 end
