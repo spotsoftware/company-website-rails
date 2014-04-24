@@ -1,10 +1,12 @@
 CompanyWebsite::Application.routes.draw do
 
+  # Root route
+  match '/' => 'pages#main', via: :get, defaults: {id: 'main'}
+
   # { Custom localized routes
 
   # :en
 
-  match '/' => 'pages#main', via: :get, defaults: {id: 'main'}
   match '/about-us' => 'pages#about', via: :get, defaults: {id: 'about'}
   match '/our-solutions-and-services' => 'pages#services', via: :get, defaults: {id: 'services'}
   match '/contacts' => 'pages#contacts', via: :get, defaults: {id: 'contacts'}
