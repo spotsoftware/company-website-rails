@@ -1,37 +1,20 @@
 class PagesController < ApplicationController
 
-  ALLOWED_PAGES = %i(main about services)
-
-
   def showMain
-    page_id = "main"
-
-    self.send(page_id)
-    render_page page_id
+    show_page :main
   end
 
   def showAbout
-    page_id = "about"
-
-    self.send(page_id)
-    render_page page_id
+    show_page :about
   end
 
   def showServices
-    page_id = "services"
-
-    self.send(page_id)
-    render_page page_id
+    show_page :services
   end
 
   def showContacts
-    page_id = "contacts"
-
-    self.send(page_id)
-    render_page page_id
+    show_page :contacts
   end
-
-  protected
 
   def main
     @title = t(:title_main)
@@ -80,6 +63,8 @@ class PagesController < ApplicationController
         { image_name: 'c03.gif' },
         { image_name: 'c04.gif' }
     ]
+
+    render_page :main
   end
 
   def about
@@ -112,6 +97,8 @@ class PagesController < ApplicationController
             details: t(:about_services_maintenance_details)
         }
     ]
+
+    render_page :about
   end
 
   def services
@@ -131,11 +118,22 @@ class PagesController < ApplicationController
             description: t(:services_web_description)
         }
     ]
+
+    render_page :services
   end
 
   def contacts
     @title = t(:title_contacts)
     @meta_description = t(:meta_description_contacts)
+
+    render_page :contacts
+  end
+
+  protected
+
+  # Utility used to setup and render a specific page.
+  def show_page(page_id)
+    self.send(page_id)
   end
 
   def render_page(page_id)

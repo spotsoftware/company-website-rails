@@ -59,10 +59,10 @@ class ApplicationController < ActionController::Base
 
   def set_navbar_info
     @navbar_links = [
-        { title: t(:home_link_title), link: '/', action:'showMain' },
-        { title: t(:solutions_link_title), link: t(:solutions_url), action:'showServices' },
-        { title: t(:about_link_title), link: t(:about_us_url), action:'showAbout' },
-        { title: t(:contacts_link_title), link: t(:contacts_url) , action:'showContacts'}
+        { title: t(:home_link_title), link: '/', action:'main' },
+        { title: t(:solutions_link_title), link: t(:solutions_url), action:'services' },
+        { title: t(:about_link_title), link: t(:about_us_url), action:'about' },
+        { title: t(:contacts_link_title), link: t(:contacts_url) , action:'contacts'}
     ]
     @navbar_anchors = [
 
