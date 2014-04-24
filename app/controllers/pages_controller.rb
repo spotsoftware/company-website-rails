@@ -1,21 +1,5 @@
 class PagesController < ApplicationController
 
-  def showMain
-    show_page :main
-  end
-
-  def showAbout
-    show_page :about
-  end
-
-  def showServices
-    show_page :services
-  end
-
-  def showContacts
-    show_page :contacts
-  end
-
   def main
     @title = t(:title_main)
     @meta_description = t(:meta_description_main)
