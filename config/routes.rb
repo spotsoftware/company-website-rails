@@ -13,9 +13,9 @@ CompanyWebsite::Application.routes.draw do
 
   # :it
 
-  match '/chi-siamo' => 'pages#about', via: :get, defaults: {id: 'about'}#, locale: :it}
-  match '/le-nostre-soluzioni-i-nostri-servizi' => 'pages#services', via: :get, defaults: {id: 'services'}#, locale: :it}
-  match '/contatti' => 'pages#contacts', via: :get, defaults: {id: 'contacts'}#, locale: :it}
+  match '/chi-siamo' => 'pages#about', via: :get, defaults: {id: 'about', locale: :it}
+  match '/le-nostre-soluzioni-i-nostri-servizi' => 'pages#services', via: :get, defaults: {id: 'services', locale: :it}
+  match '/contatti' => 'pages#contacts', via: :get, defaults: {id: 'contacts', locale: :it}
 
   # }
 
