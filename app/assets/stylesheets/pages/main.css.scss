@@ -48,6 +48,10 @@
   }
 }
 
+.main-presentation {
+  font-size: 2.1em;
+}
+
 @media (max-width: 640px){
   #headerwrap .claim  {
     font-size:5em;
@@ -88,8 +92,9 @@
   padding-bottom: 50px;
   text-align: center;
 
-  h2 {
-    margin: 0 0 30px;
+  .partners-title {
+    font-size: 2.1em;
+    margin: 0 0 40px;
   }
 
   .desc {
