@@ -4,6 +4,7 @@
 // ==> Variables
 
 $text-color: #ffa500;
+$status-indicator-vertical-margin: 1em;
 
 
 // { KeepCalm styles
@@ -11,6 +12,11 @@ $text-color: #ffa500;
 .keep-calm-wrapper {
 
   font-family: 'Keep Calm', 'Open Sans', sans-serif;
+
+  .status-indicator {
+    margin-top: $status-indicator-vertical-margin;
+    margin-bottom: $status-indicator-vertical-margin;
+  }
 
   .keep-calm,.sorry,.sometime-we-fail {
     font-weight: normal;
