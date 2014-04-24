@@ -16,7 +16,7 @@ class ApplicationController < ActionController::Base
 
   [ ActionController::RoutingError,
     ActionController::UnknownController,
-    ActiveRecord::RecordNotFound].each do |exception_class|
+    ActiveRecord::RecordNotFound ].each do |exception_class|
       rescue_from exception_class do |exception|
         redirect_to '/404'
       end
@@ -56,18 +56,6 @@ class ApplicationController < ActionController::Base
     end
 
   end
-
-  # @@geoip ||= GeoIP.new(Rails.root.join('db', 'GeoIP.dat'))
-  # def get_locale_from_geoip
-  #   return nil if request.nil? or request.remote_ip.nil?
-
-  #   remote_ip = request.remote_ip
-
-  #   if remote_ip != "127.0.0.1" # Skip localhost
-  #     location_location = @@geoip.country(remote_ip)
-  #     location_location != nil ? location_location[2] : nil
-  #   end
-  # end
 
   def set_navbar_info
     @navbar_links = [

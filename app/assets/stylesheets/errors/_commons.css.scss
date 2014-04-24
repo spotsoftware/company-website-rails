@@ -1,21 +1,29 @@
 @import "commons/large_header";
 
 
+// ==> Variables
+
 $text-color: #ffa500;
 
 
+// { KeepCalm styles
+
 .keep-calm-wrapper {
+
+  font-family: 'Keep Calm', 'Open Sans', sans-serif;
 
   .keep-calm,.sorry,.sometime-we-fail {
     font-weight: normal;
-    font-size: 5em;
+    font-size: 3em;
     color: $text-color;
   }
 
   .and {
-    font-weight: bold;
+    font-weight: normal;
     font-size: 2em;
     color: $text-color;
   }
 
 }
+
+// }

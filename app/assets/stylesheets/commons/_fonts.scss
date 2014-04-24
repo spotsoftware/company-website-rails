@@ -72,3 +72,21 @@ $opensans-base-path: 'opensans';
 }
 
 // }
+
+// { KeepCalm
+
+// ==> Variables
+
+$keepcalm-base-path: 'keepcalm';
+
+
+// ==> Normal style
+
+@font-face {
+  font-family: 'Keep Calm';
+  font-style: normal;
+  font-weight: 400;
+  src: asset-url($keepcalm-base-path + '/KeepCalm-Medium.ttf');
+}
+
+// }
