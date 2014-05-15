@@ -8,8 +8,6 @@ class ApplicationController < ActionController::Base
 
   before_filter :set_info
 
-  #if Rails.env.production?
-
   rescue_from Exception do |exception|
     redirect_to '/500'
   end
@@ -21,8 +19,6 @@ class ApplicationController < ActionController::Base
         redirect_to '/404'
       end
   end
-
-  #end
 
   protected
 

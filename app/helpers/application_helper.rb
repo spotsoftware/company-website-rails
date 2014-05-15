@@ -11,7 +11,9 @@ module ApplicationHelper
   def asset_path_for_specific_page
     File.join(
         params[:controller],
-        (params[:controller] != 'pages') ? params[:action] : params[:id])
+        %w(pages news).include?(params[:controller]) ?
+            params[:id].gsub('-', '_') :
+            params[:action])
   end
 
 end

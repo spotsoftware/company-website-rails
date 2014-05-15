@@ -4,9 +4,9 @@ en:
   
   # ==> Url
   
-  solutions_url: "our-solutions-and-services"
-  about_us_url: "about-us"
-  contacts_url: "contacts"
+  solutions_url: "/our-solutions-and-services"
+  about_us_url: "/about-us"
+  contacts_url: "/contacts"
 
   title: "SPOT Software - Components & Solutions"
 
@@ -107,5 +107,41 @@ en:
   errors_keep_calm_sorry: "sorry"
   errors_keep_calm_sometimes_we_fail: "sometimes we fail"
   errors_keep_calm_url_not_found: "the requested url was not found"
+
+  # }
+
+  # { News
+
+  news:
+
+    # ==> Google Glass
+
+    googleglass:
+      title: "La nostra esperienza con i Google Glass"
+      arentgadget: "I Google Glass non sono un “gadget” che lascia indifferenti e già dai primi mesi in cui i Google Glass sono stati rilasciati in via sperimentale sono diventati per molti l’oggetto del desiderio."
+      consultant:
+        before: "Grazie al nostro consulente Kevin Gaugler, docente ed esperto in “new learning technologies” presso la"
+        after: "(New York State), siamo entrati nel Google Glass Explorer Program."
+      waitingended: "L’attesa è terminata la prima settimana di Dicembre 2013, suscitando subito grande curiosità e voglia di sperimentarli. Il primo impatto con l’interazione utente e l’interfaccia dei comandi vocali non è stato immediato, ma l’impaccio è durato solo poche ore."
+      workonsdk: "Vista la nostra attitudine allo sviluppo, ci siamo messi subito al lavoro con l’SDK su IDE Eclipse per le primissime prove."
+      experiments: "I primi esperimenti tecnici sono andati a braccetto con prove sulle potenzialità dentro e fuori l’ufficio, rendendo evidente come con i Google Glass indossati non si passi inosservati."
+      applications: "Le prime applicazioni disponibili, in particolare la traduzione simultanea di testi direttamente sul display ci hanno impressionanto confermandoci le potenzialità dello strumento."
+      prototypesdevelopment: "Dopo aver preso dimestichezza con l’SDK, abbiamo iniziato lo sviluppo di alcuni prototipi per i nostri clienti in ambito Fitness che ci ha portato all’elaborazione di un modulo per l’interazione dei Glass con un treadmill."
+      enthusiasm: "L’entusiasmo per lo strumento lo ha fatto diventare anche l’attore principale per il video di auguri natalizi, obiettivo purtroppo rovinato dalla rottura del display e dalla necessità di dover affrontare i primi problemi hardware dei Glass. In questo caso l’assistenza Google, pur essendo ancora un prototipo, si è rivelata all’altezza, riuscendo a darci supporto e dandoci la possibilità di sostituire il dispositivi in tempi più che ragionevoli."
+      aspects:
+        title: "Durante la nostra esperienza di sviluppo con l’SDK abbiamo approfondito i senguenti aspetti:"
+        bluetoothcommunication: "Comunicazione Bluetooh biderezionale"
+        voicecommands: "Estensione comandi vocali"
+        operationalflow: "Flusso operativo di controllo"
+      problems:
+        autonomy: "Durante l’utilizzo giornaliero abbiamo riscontrato solo problemi di autonomia della batteria, oltre ovviamente ad una certa “curiosità” da parte delle persone che ti circondano :)"
+      platformsintegration: "L’integrazione con la piattagorma Android è ottima, ancora qualche problema di integrazione e sviluppo su piattaforma iOS."
+      github:
+        title: "Sul nostro repository pubblico GitHub è possibile trovare del codice di esempio ricavato dalle applicazioni che abbiamo sviluppato:"
+        bluetoothexample: "Esempio Bluetooth"
+        voicecommandsexample: "Esempio Comando vocale"
+        slideshowexample: "Esempio SlideShow"
+      conclusions: "Per concludere ci limitiamo a segnalare un interessante articolo che fa le pulci sul costo dei componenti di cui sono composti i Glass e quindi una stima di quello che potrebbe essere il costo al pubblico, altro tema fortemente discusso in questi mesi."
+      considerations: "L’esperienza e l’esplorazione dei Glass è assolutamente positiva e continua tuttora, tralascio tutte le considerazioni su privacy, sull’indossabilità o sull’attenzione che si genera indossandoli, tutti temi sui quali è possibili trovare in rete innumerevoli articoli e considerazioni."
 
   # }

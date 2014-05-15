@@ -3,6 +3,8 @@ CompanyWebsite::Application.routes.draw do
   # Root route
   match '/' => 'pages#main', via: :get, defaults: {id: 'main'}
 
+  resources :news, only: [:show]
+
   # { Custom localized routes
 
   # :en
