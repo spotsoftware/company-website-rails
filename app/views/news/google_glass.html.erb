@@ -5,9 +5,9 @@
 
 <%# ==> Body %>
 
-<div id="news-body">
-  <div class="container">
-    <div class="row mt">
+<div class="container">
+  <div class="row mt">
+    <div id="news-body">
       <div class="col-lg-12">
         <p><%= t('news.googleglass.arentgadget') %></p>
         <p><%= t('news.googleglass.consultant.before') %> <%= link_to('Marist University', 'http://www.marist.edu') %> <%= t('news.googleglass.consultant.after') %></p>
@@ -15,6 +15,15 @@
         <p><%= t('news.googleglass.workonsdk') %></p>
         <p><%= t('news.googleglass.experiments') %></p>
         <p><%= t('news.googleglass.applications') %></p>
+
+        <div class="row">
+          <div class="centered">
+            <%= image_tag 'news/google-glass/ggimg1.jpg', class: 'img-thumbnail' %>
+            <%= image_tag 'news/google-glass/ggimg2.jpg', class: 'img-thumbnail' %>
+            <%= image_tag 'news/google-glass/ggimg3.jpg', class: 'img-thumbnail' %>
+          </div>
+        </div>
+
         <p><%= t('news.googleglass.prototypesdevelopment') %></p>
         <p><%= t('news.googleglass.enthusiasm') %></p>
         <p><%= t('news.googleglass.aspects.title') %></p>

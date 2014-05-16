@@ -36,9 +36,6 @@ gem 'bcrypt', '~> 3.1.2'
 
 # { Runtime
 
-# Use debugger
-gem 'debugger', group: [:development, :test]
-
 gem 'foreman'
 
 # }
