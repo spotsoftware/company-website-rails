@@ -3,4 +3,10 @@
 
 #news-header {
   background: image-url('news/google-glass/header.jpg') no-repeat center top;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background: relative center center;
 }

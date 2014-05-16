@@ -1,0 +1,38 @@
+<div id="fb-root"></div>
+
+<!-- Google -->
+<script type="text/javascript" src="https://apis.google.com/js/platform.js">
+    {lang: '<%= I18n.locale %>'}
+</script>
+
+<script type="text/javascript">
+
+    <% locale_with_region = I18n.locale == :it ? 'it_IT' : 'en_US' %>
+
+    // Facebook
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/<%= locale_with_region %>/sdk.js#xfbml=1&version=v2.0";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    window.___gcfg = {lang: '<%= I18n.locale %>'};
+
+    // Twitter
+    !function(d,s,id){
+        var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}
+    }(document, 'script', 'twitter-wjs');
+
+</script>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12 social-buttons-container">
+      <hr>
+      <div class="fb-share-button" data-href="<%= news_element_url %>" data-type="button_count"></div>
+      <a class="twitter-share-button" data-url="<%= news_element_url %>" href="https://twitter.com/share">Tweet</a>
+      <div class="g-plus" data-href="<%= news_element_url %>" data-action="share" data-annotation="bubble"></div>
+    </div>
+  </div>
+</div>

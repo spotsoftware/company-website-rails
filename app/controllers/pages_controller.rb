@@ -21,7 +21,8 @@ class PagesController < ApplicationController
     @portfolio_items = [
         {
             image_name: '15.png',
-            title: t(:main_portfolio_items_glass_title)
+            title: t(:main_portfolio_items_glass_title),
+            link: news_url('google-glass')
         },
         {
             image_name: '4.png',

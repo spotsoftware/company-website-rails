@@ -17,7 +17,7 @@
         <p><%= t('news.googleglass.applications') %></p>
 
         <div class="row">
-          <div class="centered">
+          <div class="col-lg-12">
             <%= image_tag 'news/google-glass/ggimg1.jpg', class: 'img-thumbnail' %>
             <%= image_tag 'news/google-glass/ggimg2.jpg', class: 'img-thumbnail' %>
             <%= image_tag 'news/google-glass/ggimg3.jpg', class: 'img-thumbnail' %>
@@ -36,17 +36,17 @@
         <p><%= t('news.googleglass.platformsintegration') %></p>
         <p><%= t('news.googleglass.github.title') %></p>
         <ul>
-          <li><%= link_to(t('news.googleglass.github.bluetoothexample'), 'https://github.com/spotsoftware/google-glass-bluetooth-sample') %></li>
-          <li><%= link_to(t('news.googleglass.github.voicecommandsexample'), 'https://github.com/spotsoftware/google-glass-voice-command-sample') %></li>
-          <li><%= link_to(t('news.googleglass.github.slideshowexample'), 'https://github.com/spotsoftware/google-glass-slideshow-sample') %></li>
+          <li><%= link_to(t('news.googleglass.github.bluetoothexample'), 'https://github.com/spotsoftware/google-glass-bluetooth-sample', target: '_blank') %></li>
+          <li><%= link_to(t('news.googleglass.github.voicecommandsexample'), 'https://github.com/spotsoftware/google-glass-voice-command-sample', target: '_blank') %></li>
+          <li><%= link_to(t('news.googleglass.github.slideshowexample'), 'https://github.com/spotsoftware/google-glass-slideshow-sample', target: '_blank') %></li>
         </ul>
         <p><%= t('news.googleglass.considerations') %></p>
         <p><%= t('news.googleglass.conclusions') %></p>
-        <p><%= link_to('Google Glass is Finally Here: What is Inside and What Does it Cost?', 'http://www.techinsights.com/teardown.com/google-glass') %></p>
+        <p><%= link_to('Google Glass is Finally Here: What is Inside and What Does it Cost?', 'http://www.techinsights.com/teardown.com/google-glass', target: '_blank') %></p>
       </div>
     </div>
   </div>
 </div>
 
 
-<%= render 'news/social' %>
+<%= render 'news/social', news_element_url: 'http://www.spot.it/news/google-glass' %>

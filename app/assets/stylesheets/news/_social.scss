@@ -1,0 +1,13 @@
+.social-buttons-container {
+  padding-bottom: 1em;
+
+  .fb-share-button, .twitter-share-button, .g-plus {
+    vertical-align: top;
+    margin: 0;
+    padding: 0 30px 0 0;
+  }
+
+  .fb-share-button span {
+    vertical-align: top !important;
+  }
+}
