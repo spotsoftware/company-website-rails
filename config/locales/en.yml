@@ -126,7 +126,7 @@ en:
       workonsdk: "Given our approach to development, we immediately set to work with the SDK on the Eclipse IDE for our first tests."
       experiments: "The first technical tests went swimmingly, with tests of its potential both in the office and outside. One thing was clear immediately: Google Glass definitely attracts the attention of others."
       applications: "We found some of the first applications available—particularly simultaneous translation of texts directly on the display—impressive, confirming the potential of the device."
-      prototypesdevelopment: "After making ourselves familiar with the SDK, we starte developing some prototype apps for our clients in the fitness sector, with led to us building a module for integrating Glass with a treadmill."
+      prototypesdevelopment: "After making ourselves familiar with the SDK, we started developing some prototype apps for our clients in the fitness sector, witch led us to building a module for integrating Glass with a treadmill."
       enthusiasm: "The enthusiasm for this tool has even made it a lead actor in Christmas greetings videos; a goal sadly ruined by the breaking of the display and the need to face the initial problems with the Glass hardware. In this case, despite the device's prototype nature, Google's support still rose to the challenge, allowing us to replace the device within a reasonable time."
       aspects:
         title: "During our experience developing with the SDK, we gained deep insight into the following features:"
