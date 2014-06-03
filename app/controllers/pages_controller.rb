@@ -20,6 +20,11 @@ class PagesController < ApplicationController
 
     @portfolio_items = [
         {
+            image_name: 'sports-hackday.jpg',
+            title: t(:main_portfolio_items_sports_hackday),
+            link: 'https://plus.google.com/109819970051795376614/posts/dL4MhE2xobL'
+            },
+        {
             image_name: '15.png',
             title: t(:main_portfolio_items_glass_title),
             link: news_url('google-glass')
