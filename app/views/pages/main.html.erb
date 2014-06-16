@@ -26,11 +26,13 @@
 <div id="services">
   <div class="container">
     <div class="row mt">
-
+    
       <% @services.each do |service| %>
         <div class="col-lg-4 col-md-4 col-sm-4">
           <div class="centered">
-            <%= fa_icon service[:icon_name] %>
+              <a href="<%= service[:link] %>">
+                <%= fa_icon service[:icon_name] %>
+              </a>
           </div>
           <div>
             <h3 class="centered"><%= service[:name] %></h3>

@@ -6,15 +6,18 @@ class PagesController < ApplicationController
     @services = [
         {
             icon_name: 'mobile',
-            name: t(:main_services_mobile_title)
+            name: t(:main_services_mobile_title),
+            link: t(:solutions_url)
         },
         {
             icon_name: 'dot-circle-o',
-            name: t(:main_services_custom_solutions_title)
+            name: t(:main_services_custom_solutions_title),
+            link: t(:solutions_url)
         },
         {
             icon_name: 'laptop',
-            name: t(:main_services_web_title)
+            name: t(:main_services_web_title),
+            link: t(:solutions_url)
         }
     ]
 
