@@ -69,7 +69,7 @@ en:
   main_presentation: "We are a software company of custom solutions"
   main_claim: "We Make Software"
   main_services_web_title: "Web"
-  main_services_custom_solutions_title: "Custom solutions"
+  main_services_custom_solutions_title: "Custom projects"
   main_services_mobile_title: "Mobile"
   main_partners_title: "Our partners"
   main_portfolio_items_glass_title: "Google Glass - We are exploring for new integrations with applications in the fields of tourism, entertainment and wellness"
@@ -85,11 +85,11 @@ en:
   meta_description_services: "We design and develop software for the integration of information systems with web applications, dynamic websites, and mobile devices."
   services_title: "Solutions"
   services_subtitle: "We design and develop software for the integration of information systems with web applications, dynamic websites, and mobile devices."
-  services_mobile_title: "mobile"
+  services_mobile_title: "Mobile"
   services_mobile_description: "We developed our first mobile application in 2003 and we have been developing mobile apps ever since. Every new solution entails new technological challenges and we are thrilled by such challenges. Every mobile project makes the most of the mobile web, thanks to devices such as smartphones, tablets, and netbooks, which require high levels of usability. We develop projects with responsive interfaces, adaptable to different devices and resolutions."
-  services_custom_projects_title: "custom projects"
+  services_custom_projects_title: "Custom projects"
   services_custom_projects_description: "With over 15 years’ experience developing custom software applications, we have explored multiple operative fields and invariably reached our goals. One of the areas in which we work more often is the integration of diversified information systems, produced by other software companies or operating on different databases. Thus we deal with other software producers in order to find the most functional and economically convenient solution for our clients. We also put particular care in developing the user interface, so that our software products are both graphically appealing and easy to use."
-  services_web_title: "web"
+  services_web_title: "Web"
   services_web_description: "Among the first in Italy, in 1999 we realized an online order management system for a catering company. Since then we have developed more than 80 sites, all of them different, but having the same purpose: to provide a high-quality browsing experience. Our dynamic websites come with an open-source content management system, which makes our clients autonomous as for upgrading, without being dependent on us forever. Our dynamic websites are designed with a search engine friendly architecture, which makes them ideal for businesses that require search engine visibility. In more than 10 years we have developed thematic portals, online order management intranets and extranets, e-commerce sites integrated with management information systems, and mobile services and applications for portable devices."
 
   # ==> Contacs

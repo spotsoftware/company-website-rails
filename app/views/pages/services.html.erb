@@ -19,12 +19,17 @@
 
 <div class="container">
   <% @services.each do |service| %>
+    <a id="<%= service[:title].upcase %>"></a>
+    <div class="row mt"></div>
+    <div class="row mt"></div>
     <div class="row mt">
-      <div class="col-lg-12">
+      <div class="col-lg-12">        
         <h3><b><%= service[:title].upcase %></b></h3>
         <hr>
         <p><%= service[:description] %></p>
       </div>
     </div>
   <% end %>
+    <div class="row mt"></div>
+    <div class="row mt"></div>
 </div>

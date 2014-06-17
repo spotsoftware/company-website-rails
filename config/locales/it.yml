@@ -69,7 +69,7 @@ it:
   main_presentation: "Siamo una software house di soluzioni personalizzate"
   main_claim: "We Make Software"
   main_services_web_title: "Web"
-  main_services_custom_solutions_title: "Soluzioni personalizzate"
+  main_services_custom_solutions_title: "Progetti personalizzati"
   main_services_mobile_title: "Mobile"
   main_partners_title: "I nostri partners"
   main_portfolio_items_glass_title: "Google Glass - Stiamo esplorando nuove integrazioni con applicazioni turistiche ed il settore dell'intrattenimento e della salute"
@@ -87,9 +87,9 @@ it:
   services_subtitle: "Progettiamo e sviluppiamo software per l'integrazione di sistemi informativi con applicazioni web, siti Internet dinamici e dispositivi mobili"
   services_mobile_title: "Mobile"
   services_mobile_description: "Abbiamo sviluppato la prima applicazione mobile nel 2003, e da allora continuiamo a farlo. Ogni soluzione che approntiamo comporta sempre nuove sfide tecnologiche e a noi queste sfide piacciono particolarmente. Ogni progetto mobile ha il grande vantaggio di sfuttare la rete, appunto in mobilità grazie a dispositivi come smartphone, tablet, netbook. Questo comporta contenuti che devono essere fruibili agevolmente e velocemente. Sviluppiamo progetti con interfacce responsive che si adattano ai vari device ed alle diverse risoluzioni"
-  services_custom_projects_title: "progetti personalizzati"
+  services_custom_projects_title: "Progetti personalizzati"
   services_custom_projects_description: "In quasi 15 anni di esperienza nel settore dello sviluppo di applicazioni software personalizzate abbiamo esplorato i più svariati campi operativi, raggiungendo sempre gli obiettivi dei progetti affrontati. L'integrazione di sistemi informativi eterogenei (prodotti cioè da software house diverse o operanti su basi dati diverse) è uno degli ambiti in cui interveniamo più di frequente, interfacciandoci spesso con altri produttori di software, per arrivare a soluzioni funzionali ed economicamente convenienti per l'azienda committente. Inoltre poniamo sempre grande attenzione allo sviluppo dell' interfaccia utente, in modo da creare software visivamente gradevoli e altamente usabili"
-  services_web_title: "web"
+  services_web_title: "Web"
   services_web_description: "Nel 1999, tra i primi in Italia, abbiamo realizzato un sistema di gestione ordini on-line per un'azienda di catering. Dal quel momento abbiamo realizzato oltre 80 siti, tutti diversi, ma tutti con un unico obiettivo: offrire un'esperienza di navigazione di alto livello. I nostri siti web dinamici sono dotati di un sistema di gestione dei contenuti open source (il che vi renderà autonomi nel loro aggiornamento senza legarvi a vita alla nostra struttura) e nascono con architetture search engine friendly, che li rendono ideali per sviluppare attività che richiedono visibilità nei motori di ricerca. Negli oltre dieci anni di attività abbiamo sviluppato portali tematici, intranet ed extranet per la gestione di ordini on-line, siti di e-commerce integrati con gestionali aziendali, servizi e applicazioni mobile per terminali portatili"
 
   # ==> Contatti
