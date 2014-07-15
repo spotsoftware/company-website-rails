@@ -1,0 +1,28 @@
+/* TEAM */
+
+    Marco Ceccarelli
+    Alessandro Molari
+    Andrea Corzani
+    Andrea Rinaldi
+    Elisa Pollarini
+    Marco Maroni
+    Alessandro Evangelisti
+    Pietro Evangelisti
+    Lorenzo Brasini
+    Monica Brasini
+    Stefano Casadei
+    Fabio Cappelli
+    Luca Giorgetti
+    Simona Giorgi
+    Chiara Foschi
+    Gabriele Manduchi
+    Maurizio Pensato
+    Giacomo Orsucci
+    
+
+/* SITE */
+
+	Last update: 2014/07/14
+	Language: English / Italiano
+	Components: Ruby On Rails, KnockoutJS, SASS, CoffeeScript
+	IDE: Brackets
