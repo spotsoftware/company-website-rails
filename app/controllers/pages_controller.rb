@@ -23,10 +23,15 @@ class PagesController < ApplicationController
 
     @portfolio_items = [
         {
+            image_name: 'smarthomehackathon.png',
+            title: t(:main_portfolio_item_smart_home_hackaton),
+            link: 'https://plus.google.com/+SpotIt/posts/3mXpNiVQGaN'
+        },
+        {
             image_name: 'sports-hackday.jpg',
             title: t(:main_portfolio_items_sports_hackday),
             link: 'https://plus.google.com/109819970051795376614/posts/dL4MhE2xobL'
-            },
+        },
         {
             image_name: '15.png',
             title: t(:main_portfolio_items_glass_title),
