@@ -53,7 +53,7 @@
         <% @portfolio_items.each do |portfolio_item| %>
           <li>
             <% if portfolio_item.has_key? :link %>
-                <a href="<%= portfolio_item[:link] %>">
+                <a href="<%= portfolio_item[:link] %>" target="<%= portfolio_item[:target] %>">
                     <%= image_tag "pages/main/portfolio-items/#{portfolio_item[:image_name]}" %>
                     <p class="fading-text"><%= portfolio_item[:title] %></p>
                 </a>
