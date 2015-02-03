@@ -1,0 +1,2 @@
+# Ignore attribute, to ignore line to git
+*.ru filter=ignoreline
