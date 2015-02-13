@@ -24,7 +24,21 @@
   <%= javascript_for_specific_page %>
 
   <%= csrf_meta_tags %>
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" />
 
+    <style>
+        
+        .lightboxOverlay {
+            z-index: 10000 !important;
+            opacity: 0.95 !important;
+        }   
+        
+        .lb-data .lb-close {
+            display: none !important;
+        }
+    
+    </style>
+    
 </head>
 <body>
 

@@ -1,15 +1,25 @@
-<div id="headerwrap" style="background: black !important;">
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js" ></script>
+
+<a id="anchor" href="http://www.imageupload.co.uk/images/2015/02/13/pietro.jpg" data-lightbox="image-1" >#Image</a>
+
+<div id="headerwrap">
   <div class="container">
     <div class="row">
       <div>
-          <%= image_tag "pages/main/pietro.jpg", :style => "max-width: 487px; width: 100%; height: auto;" %>
-          <!--<img style="max-width: 487px; width: 100%; height: auto;" src="images/pages/main/pietro.jpg" /> -->
-        <!-- <h1 class="claim"><%= t(:main_claim) %></h1> -->
+        <h1 class="claim"><%= t(:main_claim) %></h1>
         <div class="spacer"></div>
       </div>
     </div>
   </div>
 </div> <!-- #headerwrap -->
+
+<script type="text/javascript" >
+
+    $(document).ready(function () {
+            $('#anchor').trigger('click');
+    });
+
+</script>
 
 <div class="container">
   <div class="row mt">
