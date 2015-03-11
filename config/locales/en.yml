@@ -19,7 +19,7 @@ en:
   home_link_title: "Home"
   solutions_link_title: "Solutions"
   about_link_title: "About"
-  contacts_link_title: "Contacts"
+  contacts_link_title: "Contacts Us"
 
   # ==> Footer
 
@@ -49,7 +49,7 @@ en:
   about_title: "About"
   about_team_kind: "We are a deft and passionate team, with a variety of skills and competences."
   about_work_kind: "We design and develop custom software in order to create integration solutions and dynamic websites."
-  about_work_history: "With over 15 years’ active presence on the market, we have learned to create low-cost but state-of-the-art software, and usable but graphically appealing websites with high search engine visibility."
+  about_work_history: "Thanks to our over 15 years of active presence on the market, we have learned to create low-cost but state-of-the-art software, and usable but graphically appealing websites with high search engine visibility."
   about_beliefs: "We strongly believe in the quality of our team and its up-to-date expertise. We think that having the right people with the right tools and skills is the best starting point for a mutually satisfactory relationship with our clients."
   about_services_analysis_title: "Analysis"  
   about_services_analysis_details: "We start by making a situation analysis together in order to build a detailed working plan, with project flows, focusing on the critical points. Sometimes these analyses need us to acquire operational knowhow about the framework used by the client. At the end of this stage, we share the analysis’ results by means of several project documents, concise but detailed, also according to the UML (Unified Modeling Language) standard."
@@ -90,7 +90,7 @@ en:
   services_mobile_title: "Mobile"
   services_mobile_description: "We've been developing applications for mobile devices since 2003. Every application takes advantage of the mobile net thanks to different devices like smartphone, tablet and phablet. This context requires applications with high level usability and speed, applications specifically designed for this environment. We are skilled in native apps development for Android, iOS, and Windows Phone platforms. We have also experiences in the development of applications for wearable devices like Google Glass, Pebble SmartWatch, etc"
   services_custom_projects_title: "Custom projects"
-  services_custom_projects_description: "With over 15 years’ experience developing custom software applications, we have explored multiple operative fields and invariably reached our goals. One of the areas in which we work more often is the integration of diversified information systems, produced by other software companies or operating on different databases. Thus we deal with other software producers in order to find the most functional and economically convenient solution for our clients. We also put particular care in developing the user interface, so that our software products are both graphically appealing and easy to use."
+  services_custom_projects_description: "Thanks to over 15 years of experience in development of custom software applications, we have explored multiple operative fields and invariably reached our goals. One of the areas in which we work more often is the integration of diversified information systems, produced by other software companies or operating on different databases. Thus we deal with other software producers in order to find the most functional and economically convenient solution for our clients. We also put particular care in developing the user interface, so that our software products are both graphically appealing and easy to use."
   services_web_title: "Web"
   services_web_description: "Among the first in Italy, in 1999 we realized an online order management system for a catering company. Since then we have developed more than 80 sites, all of them different, but having the same purpose: to provide a high-quality browsing experience.  We use the most spread and up to date technology and languages, server side and client side, C#, ASP.NET, Ruby on Rails, and the most commons javascript frameworks: JQuery, AngularJS, NodeJS, Knockout and of course HTML5 and CSS3 to manage web sites with responsive layout for different screen resolutions on different devices. In more than 10 years we have developed thematic portals, online order management intranets and extranets, e-commerce sites integrated with management information systems, and mobile services and applications for portable devices."
 
