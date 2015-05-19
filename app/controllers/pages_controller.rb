@@ -128,7 +128,7 @@ class PagesController < ApplicationController
 
     render_page :contacts
   end
-
+    
   protected
 
   # Utility used to setup and render a specific page.
