@@ -22,7 +22,7 @@ it:
   contacts_link_title: "Contatti"
 
   # ==> Footer
-
+  gps: "Coordinate GPS"
   contact_location_title: "Dove siamo"
   contact_fiscal_code: "Codice fiscale, Partita IVA e numero d'iscrizione al Registro delle Imprese di Forlì-Cesena"
   contact_capital: "Capitale sociale euro 15.600,00 interamente versato"

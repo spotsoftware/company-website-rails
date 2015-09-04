@@ -22,7 +22,7 @@ en:
   contacts_link_title: "Contact Us"
 
   # ==> Footer
-
+  gps: "GPS Coordinates"
   contact_location_title: "Location"
   contact_fiscal_code: "Fiscal code, VAT, business identification number recorded in the Forlì-Cesena Business Registry"
   contact_capital: "Paid-Up Capital: 15.600,00 euro"
